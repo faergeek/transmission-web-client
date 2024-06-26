@@ -1,0 +1,17 @@
+[
+  {
+    "name": "css",
+    "path": "dist/assets/**/*.css",
+    "limit": "23 kB"
+  },
+  {
+    "name": "js:eager",
+    "path": "dist/assets/index-*.js",
+    "limit": "124 kB"
+  },
+  {
+    "name": "js:lazy",
+    "path": ["dist/assets/**/*.js", "!dist/assets/index-*.js"],
+    "limit": "22 kB"
+  }
+]
