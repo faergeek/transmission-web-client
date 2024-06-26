@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-06-22 20:25+0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ru\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/layout/layout.tsx:40
+msgid "Add a torrent from file"
+msgstr "Добавить торрент из файла"
+
+#: src/layout/layout.tsx:49
+#: src/layout/layout.tsx:109
+#: src/layout/layout.tsx:112
+msgid "Server settings"
+msgstr "Настройки сервера"
+
+#: src/layout/layout.tsx:58
+msgid "Client settings"
+msgstr "Настройки клиента"
+
+#: src/layout/layout.tsx:69
+msgid "Language"
+msgstr "Язык"
+
+#: src/routes/add-server.lazy.tsx:146
+msgid "Connection information"
+msgstr "Информация для подключения"
+
+#: src/routes/add-server.lazy.tsx:151
+msgid "Checking connection..."
+msgstr "Проверка соединения..."
+
+#: src/routes/add-server.lazy.tsx:157
+msgid "Could not connect to the server"
+msgstr "Не удалось подключиться к серверу"
+
+#: src/routes/add-server.lazy.tsx:159
+msgid "Unexpected error"
+msgstr "Неожиданная ошибка"
+
+#: src/routes/add-server.lazy.tsx:164
+msgid "Connected"
+msgstr "Подключено"
+
+#: src/routes/add-server.lazy.tsx:169
+msgid "Please provide information necessary to connect to your Transmission server"
+msgstr "Пожалуйста, предоставьте информация необходимую для подключения к вашему серверу Transmission"
+
+#: src/routes/add-server.lazy.tsx:185
+msgid "Address"
+msgstr "Адрес"
+
+#: src/routes/add-server.lazy.tsx:190
+msgid "Port"
+msgstr "Порт"
+
+#: src/routes/add-server.lazy.tsx:214
+msgid "Path"
+msgstr "Путь"
+
+#: src/routes/add-server.lazy.tsx:226
+msgid "Connect"
+msgstr "Подключиться"
+
+#: src/routes/add-server.lazy.tsx:250
+#: src/routes/add-server.lazy.tsx:353
+msgid "Login"
+msgstr "Вход"
+
+#: src/routes/add-server.lazy.tsx:256
+msgid "Logging in..."
+msgstr "Вход..."
+
+#: src/routes/add-server.lazy.tsx:263
+msgid "Wrong username and/or password"
+msgstr "Неверное имя пользователя и/или пароль"
+
+#: src/routes/add-server.lazy.tsx:265
+msgid "Please provide username and password"
+msgstr "Пожалуйста введите имя пользователя и пароль"
+
+#: src/routes/add-server.lazy.tsx:271
+msgid "Server does not require username and password"
+msgstr "Сервер не требует имени пользователя и пароля"
+
+#: src/routes/add-server.lazy.tsx:275
+msgid "Logged in"
+msgstr "Вход выполнен"
+
+#: src/routes/add-server.lazy.tsx:281
+msgid "Server requires username and password"
+msgstr "Сервер требует имя пользователя и пароль"
+
+#: src/routes/add-server.lazy.tsx:285
+msgid "If server is configured to require username and password you will need to provide them at this step"
+msgstr "Если сервер требует имя пользователя и пароль, вам нужно будет предоставить их на этом шаге"
+
+#: src/routes/add-server.lazy.tsx:324
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: src/routes/add-server.lazy.tsx:331
+msgid "Password"
+msgstr "Пароль"
+
+#: src/routes/add-server.lazy.tsx:344
+#: src/routes/add-server.lazy.tsx:429
+msgid "Back"
+msgstr "Назад"
+
+#: src/routes/add-server.lazy.tsx:363
+msgid "Ready"
+msgstr "Готово"
+
+#: src/routes/add-server.lazy.tsx:366
+msgid "Name your server and you're good to go"
+msgstr "Осталось лишь задать имя сервера и всё"
+
+#: src/routes/add-server.lazy.tsx:415
+msgid "Name"
+msgstr "Имя"
+
+#: src/routes/add-server.lazy.tsx:438
+msgid "Add"
+msgstr "Добавить"
+
+#: src/transmission/utils.ts:55
+msgid "{days, plural, one {# day} other {# days}}"
+msgstr "{days, plural, one {# день} few {# дня} other {# дней}}"
+
+#: src/transmission/utils.ts:56
+msgid "{hours, plural, one {# hour} other {# hours}}"
+msgstr "{hours, plural, one {# час} few {# часа} other {# часов}}"
+
+#: src/transmission/utils.ts:57
+msgid "{minutes, plural, one {# minute} other {# minutes}}"
+msgstr "{minutes, plural, one {# минута} few {# минуты} other {# минут}}"
+
+#: src/transmission/utils.ts:58
+msgid "{seconds, plural, one {# second} other {# seconds}}"
+msgstr "{seconds, plural, one {# секунда} few {# секунды} other {# секунд}}"
+
+#: src/transmission/utils.ts:63
+msgid "{duration} remaining"
+msgstr "осталось: {duration}"

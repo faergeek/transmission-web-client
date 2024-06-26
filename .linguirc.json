@@ -1,0 +1,12 @@
+{
+  "catalogs": [
+    {
+      "path": "<rootDir>/src/locales/{locale}/messages",
+      "include": ["src"]
+    }
+  ],
+  "compileNamespace": "please don't use compile command",
+  "locales": ["en", "ru"],
+  "orderBy": "origin",
+  "sourceLocale": "en"
+}

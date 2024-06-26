@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-06-22 20:25+0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/layout/layout.tsx:40
+msgid "Add a torrent from file"
+msgstr "Add a torrent from file"
+
+#: src/layout/layout.tsx:49
+#: src/layout/layout.tsx:109
+#: src/layout/layout.tsx:112
+msgid "Server settings"
+msgstr "Server settings"
+
+#: src/layout/layout.tsx:58
+msgid "Client settings"
+msgstr "Client settings"
+
+#: src/layout/layout.tsx:69
+msgid "Language"
+msgstr "Language"
+
+#: src/routes/add-server.lazy.tsx:146
+msgid "Connection information"
+msgstr "Connection information"
+
+#: src/routes/add-server.lazy.tsx:151
+msgid "Checking connection..."
+msgstr "Checking connection..."
+
+#: src/routes/add-server.lazy.tsx:157
+msgid "Could not connect to the server"
+msgstr "Could not connect to the server"
+
+#: src/routes/add-server.lazy.tsx:159
+msgid "Unexpected error"
+msgstr "Unexpected error"
+
+#: src/routes/add-server.lazy.tsx:164
+msgid "Connected"
+msgstr "Connected"
+
+#: src/routes/add-server.lazy.tsx:169
+msgid "Please provide information necessary to connect to your Transmission server"
+msgstr "Please provide information necessary to connect to your Transmission server"
+
+#: src/routes/add-server.lazy.tsx:185
+msgid "Address"
+msgstr "Address"
+
+#: src/routes/add-server.lazy.tsx:190
+msgid "Port"
+msgstr "Port"
+
+#: src/routes/add-server.lazy.tsx:214
+msgid "Path"
+msgstr "Path"
+
+#: src/routes/add-server.lazy.tsx:226
+msgid "Connect"
+msgstr "Connect"
+
+#: src/routes/add-server.lazy.tsx:250
+#: src/routes/add-server.lazy.tsx:353
+msgid "Login"
+msgstr "Login"
+
+#: src/routes/add-server.lazy.tsx:256
+msgid "Logging in..."
+msgstr "Logging in..."
+
+#: src/routes/add-server.lazy.tsx:263
+msgid "Wrong username and/or password"
+msgstr "Wrong username and/or password"
+
+#: src/routes/add-server.lazy.tsx:265
+msgid "Please provide username and password"
+msgstr "Please provide username and password"
+
+#: src/routes/add-server.lazy.tsx:271
+msgid "Server does not require username and password"
+msgstr "Server does not require username and password"
+
+#: src/routes/add-server.lazy.tsx:275
+msgid "Logged in"
+msgstr "Logged in"
+
+#: src/routes/add-server.lazy.tsx:281
+msgid "Server requires username and password"
+msgstr "Server requires username and password"
+
+#: src/routes/add-server.lazy.tsx:285
+msgid "If server is configured to require username and password you will need to provide them at this step"
+msgstr "If server is configured to require username and password you will need to provide them at this step"
+
+#: src/routes/add-server.lazy.tsx:324
+msgid "Username"
+msgstr "Username"
+
+#: src/routes/add-server.lazy.tsx:331
+msgid "Password"
+msgstr "Password"
+
+#: src/routes/add-server.lazy.tsx:344
+#: src/routes/add-server.lazy.tsx:429
+msgid "Back"
+msgstr "Back"
+
+#: src/routes/add-server.lazy.tsx:363
+msgid "Ready"
+msgstr "Ready"
+
+#: src/routes/add-server.lazy.tsx:366
+msgid "Name your server and you're good to go"
+msgstr "Name your server and you're good to go"
+
+#: src/routes/add-server.lazy.tsx:415
+msgid "Name"
+msgstr "Name"
+
+#: src/routes/add-server.lazy.tsx:438
+msgid "Add"
+msgstr "Add"
+
+#: src/transmission/utils.ts:55
+msgid "{days, plural, one {# day} other {# days}}"
+msgstr "{days, plural, one {# day} other {# days}}"
+
+#: src/transmission/utils.ts:56
+msgid "{hours, plural, one {# hour} other {# hours}}"
+msgstr "{hours, plural, one {# hour} other {# hours}}"
+
+#: src/transmission/utils.ts:57
+msgid "{minutes, plural, one {# minute} other {# minutes}}"
+msgstr "{minutes, plural, one {# minute} other {# minutes}}"
+
+#: src/transmission/utils.ts:58
+msgid "{seconds, plural, one {# second} other {# seconds}}"
+msgstr "{seconds, plural, one {# second} other {# seconds}}"
+
+#: src/transmission/utils.ts:63
+msgid "{duration} remaining"
+msgstr "{duration} remaining"
