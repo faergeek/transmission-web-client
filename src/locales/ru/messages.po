@@ -31,105 +31,114 @@ msgstr "Настройки клиента"
 msgid "Language"
 msgstr "Язык"
 
-#: src/routes/add-server.lazy.tsx:146
+#: src/routes/add-server.lazy.tsx:149
 msgid "Connection information"
 msgstr "Информация для подключения"
 
-#: src/routes/add-server.lazy.tsx:151
+#: src/routes/add-server.lazy.tsx:154
 msgid "Checking connection..."
 msgstr "Проверка соединения..."
 
-#: src/routes/add-server.lazy.tsx:157
+#: src/routes/add-server.lazy.tsx:160
 msgid "Could not connect to the server"
 msgstr "Не удалось подключиться к серверу"
 
-#: src/routes/add-server.lazy.tsx:159
+#: src/routes/add-server.lazy.tsx:162
 msgid "Unexpected error"
 msgstr "Неожиданная ошибка"
 
-#: src/routes/add-server.lazy.tsx:164
+#: src/routes/add-server.lazy.tsx:167
 msgid "Connected"
 msgstr "Подключено"
 
-#: src/routes/add-server.lazy.tsx:169
+#: src/routes/add-server.lazy.tsx:172
 msgid "Please provide information necessary to connect to your Transmission server"
 msgstr "Пожалуйста, предоставьте информация необходимую для подключения к вашему серверу Transmission"
 
-#: src/routes/add-server.lazy.tsx:185
+#: src/routes/add-server.lazy.tsx:188
 msgid "Address"
 msgstr "Адрес"
 
-#: src/routes/add-server.lazy.tsx:190
+#: src/routes/add-server.lazy.tsx:193
 msgid "Port"
 msgstr "Порт"
 
-#: src/routes/add-server.lazy.tsx:214
+#: src/routes/add-server.lazy.tsx:217
 msgid "Path"
 msgstr "Путь"
 
-#: src/routes/add-server.lazy.tsx:226
+#: src/routes/add-server.lazy.tsx:229
 msgid "Connect"
 msgstr "Подключиться"
 
-#: src/routes/add-server.lazy.tsx:250
-#: src/routes/add-server.lazy.tsx:353
+#: src/routes/add-server.lazy.tsx:253
+#: src/routes/add-server.lazy.tsx:367
+#: src/routes/login.lazy.tsx:72
+#: src/routes/login.lazy.tsx:102
 msgid "Login"
 msgstr "Вход"
 
-#: src/routes/add-server.lazy.tsx:256
+#: src/routes/add-server.lazy.tsx:259
 msgid "Logging in..."
 msgstr "Вход..."
 
-#: src/routes/add-server.lazy.tsx:263
+#: src/routes/add-server.lazy.tsx:266
 msgid "Wrong username and/or password"
 msgstr "Неверное имя пользователя и/или пароль"
 
-#: src/routes/add-server.lazy.tsx:265
+#: src/routes/add-server.lazy.tsx:268
 msgid "Please provide username and password"
 msgstr "Пожалуйста введите имя пользователя и пароль"
 
-#: src/routes/add-server.lazy.tsx:271
+#: src/routes/add-server.lazy.tsx:274
 msgid "Server does not require username and password"
 msgstr "Сервер не требует имени пользователя и пароля"
 
-#: src/routes/add-server.lazy.tsx:275
+#: src/routes/add-server.lazy.tsx:278
 msgid "Logged in"
 msgstr "Вход выполнен"
 
-#: src/routes/add-server.lazy.tsx:281
+#: src/routes/add-server.lazy.tsx:284
 msgid "Server requires username and password"
 msgstr "Сервер требует имя пользователя и пароль"
 
-#: src/routes/add-server.lazy.tsx:285
+#: src/routes/add-server.lazy.tsx:288
 msgid "If server is configured to require username and password you will need to provide them at this step"
 msgstr "Если сервер требует имя пользователя и пароль, вам нужно будет предоставить их на этом шаге"
 
-#: src/routes/add-server.lazy.tsx:324
+#: src/routes/add-server.lazy.tsx:328
+#: src/routes/login.lazy.tsx:78
 msgid "Username"
 msgstr "Имя пользователя"
 
-#: src/routes/add-server.lazy.tsx:331
+#: src/routes/add-server.lazy.tsx:336
+#: src/routes/login.lazy.tsx:85
 msgid "Password"
 msgstr "Пароль"
 
-#: src/routes/add-server.lazy.tsx:344
-#: src/routes/add-server.lazy.tsx:429
+#: src/routes/add-server.lazy.tsx:345
+#: src/routes/login.lazy.tsx:91
+msgid "Save username and password"
+msgstr "Сохранить имя пользователя и пароль"
+
+#: src/routes/add-server.lazy.tsx:358
+#: src/routes/add-server.lazy.tsx:451
 msgid "Back"
 msgstr "Назад"
 
-#: src/routes/add-server.lazy.tsx:363
+#: src/routes/add-server.lazy.tsx:377
 msgid "Ready"
 msgstr "Готово"
 
-#: src/routes/add-server.lazy.tsx:366
+#: src/routes/add-server.lazy.tsx:380
 msgid "Name your server and you're good to go"
 msgstr "Осталось лишь задать имя сервера и всё"
 
-#: src/routes/add-server.lazy.tsx:415
+#: src/routes/add-server.lazy.tsx:437
 msgid "Name"
 msgstr "Имя"
 
-#: src/routes/add-server.lazy.tsx:438
+#: src/routes/add-server.lazy.tsx:460
 msgid "Add"
 msgstr "Добавить"
 

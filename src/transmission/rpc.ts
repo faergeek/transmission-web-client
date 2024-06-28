@@ -1,5 +1,6 @@
 import { Result } from '@faergeek/monads';
 import { queryOptions, skipToken } from '@tanstack/react-query';
+import { redirect } from 'react-router-dom';
 import invariant from 'tiny-invariant';
 
 import type { ServerUrlInput } from '../servers/types';
@@ -426,4 +427,21 @@ export function transmissionRpcQuery<T extends TransmissionRpcRequest>({
         }
       : skipToken,
   });
+}
+
+export async function handleTransmissionRpcErrorInDataFunction<T>(
+  promise: Promise<T>,
+) {
+  try {
+    return await promise;
+  } catch (err) {
+    if (
+      err instanceof TransmissionRpcError &&
+      err.info.kind === 'unauthorized'
+    ) {
+      throw redirect('/login');
+    }
+
+    throw err;
+  }
 }

@@ -31,105 +31,114 @@ msgstr "Client settings"
 msgid "Language"
 msgstr "Language"
 
-#: src/routes/add-server.lazy.tsx:146
+#: src/routes/add-server.lazy.tsx:149
 msgid "Connection information"
 msgstr "Connection information"
 
-#: src/routes/add-server.lazy.tsx:151
+#: src/routes/add-server.lazy.tsx:154
 msgid "Checking connection..."
 msgstr "Checking connection..."
 
-#: src/routes/add-server.lazy.tsx:157
+#: src/routes/add-server.lazy.tsx:160
 msgid "Could not connect to the server"
 msgstr "Could not connect to the server"
 
-#: src/routes/add-server.lazy.tsx:159
+#: src/routes/add-server.lazy.tsx:162
 msgid "Unexpected error"
 msgstr "Unexpected error"
 
-#: src/routes/add-server.lazy.tsx:164
+#: src/routes/add-server.lazy.tsx:167
 msgid "Connected"
 msgstr "Connected"
 
-#: src/routes/add-server.lazy.tsx:169
+#: src/routes/add-server.lazy.tsx:172
 msgid "Please provide information necessary to connect to your Transmission server"
 msgstr "Please provide information necessary to connect to your Transmission server"
 
-#: src/routes/add-server.lazy.tsx:185
+#: src/routes/add-server.lazy.tsx:188
 msgid "Address"
 msgstr "Address"
 
-#: src/routes/add-server.lazy.tsx:190
+#: src/routes/add-server.lazy.tsx:193
 msgid "Port"
 msgstr "Port"
 
-#: src/routes/add-server.lazy.tsx:214
+#: src/routes/add-server.lazy.tsx:217
 msgid "Path"
 msgstr "Path"
 
-#: src/routes/add-server.lazy.tsx:226
+#: src/routes/add-server.lazy.tsx:229
 msgid "Connect"
 msgstr "Connect"
 
-#: src/routes/add-server.lazy.tsx:250
-#: src/routes/add-server.lazy.tsx:353
+#: src/routes/add-server.lazy.tsx:253
+#: src/routes/add-server.lazy.tsx:367
+#: src/routes/login.lazy.tsx:72
+#: src/routes/login.lazy.tsx:102
 msgid "Login"
 msgstr "Login"
 
-#: src/routes/add-server.lazy.tsx:256
+#: src/routes/add-server.lazy.tsx:259
 msgid "Logging in..."
 msgstr "Logging in..."
 
-#: src/routes/add-server.lazy.tsx:263
+#: src/routes/add-server.lazy.tsx:266
 msgid "Wrong username and/or password"
 msgstr "Wrong username and/or password"
 
-#: src/routes/add-server.lazy.tsx:265
+#: src/routes/add-server.lazy.tsx:268
 msgid "Please provide username and password"
 msgstr "Please provide username and password"
 
-#: src/routes/add-server.lazy.tsx:271
+#: src/routes/add-server.lazy.tsx:274
 msgid "Server does not require username and password"
 msgstr "Server does not require username and password"
 
-#: src/routes/add-server.lazy.tsx:275
+#: src/routes/add-server.lazy.tsx:278
 msgid "Logged in"
 msgstr "Logged in"
 
-#: src/routes/add-server.lazy.tsx:281
+#: src/routes/add-server.lazy.tsx:284
 msgid "Server requires username and password"
 msgstr "Server requires username and password"
 
-#: src/routes/add-server.lazy.tsx:285
+#: src/routes/add-server.lazy.tsx:288
 msgid "If server is configured to require username and password you will need to provide them at this step"
 msgstr "If server is configured to require username and password you will need to provide them at this step"
 
-#: src/routes/add-server.lazy.tsx:324
+#: src/routes/add-server.lazy.tsx:328
+#: src/routes/login.lazy.tsx:78
 msgid "Username"
 msgstr "Username"
 
-#: src/routes/add-server.lazy.tsx:331
+#: src/routes/add-server.lazy.tsx:336
+#: src/routes/login.lazy.tsx:85
 msgid "Password"
 msgstr "Password"
 
-#: src/routes/add-server.lazy.tsx:344
-#: src/routes/add-server.lazy.tsx:429
+#: src/routes/add-server.lazy.tsx:345
+#: src/routes/login.lazy.tsx:91
+msgid "Save username and password"
+msgstr "Save username and password"
+
+#: src/routes/add-server.lazy.tsx:358
+#: src/routes/add-server.lazy.tsx:451
 msgid "Back"
 msgstr "Back"
 
-#: src/routes/add-server.lazy.tsx:363
+#: src/routes/add-server.lazy.tsx:377
 msgid "Ready"
 msgstr "Ready"
 
-#: src/routes/add-server.lazy.tsx:366
+#: src/routes/add-server.lazy.tsx:380
 msgid "Name your server and you're good to go"
 msgstr "Name your server and you're good to go"
 
-#: src/routes/add-server.lazy.tsx:415
+#: src/routes/add-server.lazy.tsx:437
 msgid "Name"
 msgstr "Name"
 
-#: src/routes/add-server.lazy.tsx:438
+#: src/routes/add-server.lazy.tsx:460
 msgid "Add"
 msgstr "Add"
 

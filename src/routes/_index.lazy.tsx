@@ -2,20 +2,21 @@ import { useLingui } from '@lingui/react';
 import { Group, Paper, Progress, Stack, Text } from '@mantine/core';
 import { IconDownload, IconUpload } from '@tabler/icons-react';
 import { useQuery } from '@tanstack/react-query';
-import { redirect } from 'react-router-dom';
 
 import type { AppLoaderArgs } from '../router/types';
 import { useAppLoaderData } from '../router/utils';
+import { selectCurrentServer, setServerSessionId } from '../servers/slice';
 import {
-  selectAllServers,
-  selectCurrentServer,
-  setCurrentServer,
-  setServerSessionId,
-} from '../servers/slice';
-import { useUpdateSessionId } from '../servers/utils';
+  selectCurrentServerInDataFunction,
+  useUpdateSessionId,
+} from '../servers/utils';
 import { useAppSelector } from '../store/utils';
 import type { TransmissionRpcRequest } from '../transmission/rpc';
-import { TorrentStatus, transmissionRpcQuery } from '../transmission/rpc';
+import {
+  handleTransmissionRpcErrorInDataFunction,
+  TorrentStatus,
+  transmissionRpcQuery,
+} from '../transmission/rpc';
 import { formatBytesPerSecond, formatEta } from '../transmission/utils';
 
 const torrentGetRequest = {
@@ -37,28 +38,18 @@ const torrentGetRequest = {
 } satisfies TransmissionRpcRequest;
 
 export async function loader({ context }: AppLoaderArgs) {
-  let server = selectCurrentServer(context.store.getState());
+  const server = selectCurrentServerInDataFunction(context.store);
 
-  if (!server) {
-    const servers = selectAllServers(context.store.getState());
-    const firstServer = servers.at(0);
-
-    if (!firstServer) {
-      throw redirect('/add-server');
-    }
-
-    context.store.dispatch(setCurrentServer(firstServer.id));
-    server = firstServer;
-  }
-
-  return context.queryClient.fetchQuery(
-    transmissionRpcQuery({
-      request: torrentGetRequest,
-      server,
-      updateSessionId(sessionId) {
-        context.store.dispatch(setServerSessionId({ server, sessionId }));
-      },
-    }),
+  return handleTransmissionRpcErrorInDataFunction(
+    context.queryClient.fetchQuery(
+      transmissionRpcQuery({
+        request: torrentGetRequest,
+        server,
+        updateSessionId(sessionId) {
+          context.store.dispatch(setServerSessionId({ server, sessionId }));
+        },
+      }),
+    ),
   );
 }
 

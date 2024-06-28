@@ -9,7 +9,7 @@ import { buildServerUrl } from './utils';
 
 const LOCAL_STORAGE_KEY = 'servers';
 
-export const TransmissionRpcServer = S.object({
+const TransmissionRpcServer = S.object({
   host: S.string(),
   https: S.boolean(),
   id: S.string(),
@@ -17,10 +17,11 @@ export const TransmissionRpcServer = S.object({
   password: S.optional(S.string()),
   pathname: S.string(),
   port: S.number(),
+  saveCredentials: S.defaulted(S.boolean(), true),
   username: S.optional(S.string()),
 });
 
-export type TransmissionRpcServer = S.Infer<typeof TransmissionRpcServer>;
+type TransmissionRpcServer = S.Infer<typeof TransmissionRpcServer>;
 
 const PersistentState = S.object({
   currentServerId: S.optional(S.string()),
@@ -91,6 +92,14 @@ const { actions, reducer, selectors } = createSlice({
       const url = buildServerUrl(server).toString();
       state.sessions[url] = sessionId;
     },
+    updateServer(state, action: PayloadAction<TransmissionRpcServer>) {
+      const server = action.payload;
+      const existingServer = state.byId[server.id];
+
+      if (existingServer) {
+        Object.assign(existingServer, server);
+      }
+    },
   },
   selectors: {
     selectCurrentServerId: state => state.currentServerId,
@@ -123,6 +132,8 @@ const { actions, reducer, selectors } = createSlice({
   },
 });
 
+export const { updateServer } = actions;
+
 function persistServersState() {
   return thunk(({ getState }) => {
     const state = getState();
@@ -132,7 +143,13 @@ function persistServersState() {
       JSON.stringify(
         PersistentState.mask({
           currentServerId: selectors.selectCurrentServerId(state),
-          servers: selectors.selectAllServers(state),
+          servers: selectors
+            .selectAllServers(state)
+            .map(({ username, password, ...server }) =>
+              server.saveCredentials
+                ? { username, password, ...server }
+                : server,
+            ),
           sessions: { ...selectors.selectSessions(state) },
         }),
       ),
@@ -196,6 +213,7 @@ export function addServer(input: {
   password?: string;
   pathname: string;
   port: number;
+  saveCredentials: boolean;
   sessionId?: string;
   username?: string;
 }) {
