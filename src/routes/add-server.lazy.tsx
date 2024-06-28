@@ -38,10 +38,12 @@ import {
 import type { TransmissionRpcErrorInfo } from '../transmission/rpc';
 import { makeTransmissionRpcRequest } from '../transmission/rpc';
 
+const checkbox = S.coerce(S.boolean(), S.optional(S.string()), Boolean);
+
 const FormValues = S.object({
   intent: S.union([S.literal('connect'), S.literal('login'), S.literal('add')]),
   host: S.string(),
-  https: S.coerce(S.boolean(), S.optional(S.string()), Boolean),
+  https: checkbox,
   name: S.optional(S.string()),
   password: S.optional(S.string()),
   pathname: S.string(),
@@ -50,6 +52,7 @@ const FormValues = S.object({
     'port',
     isFinite,
   ),
+  saveCredentials: checkbox,
   username: S.optional(S.string()),
 });
 
@@ -320,6 +323,7 @@ export function Component() {
                   <Stack>
                     <TextInput
                       autoComplete="username"
+                      defaultValue={actionData?.values?.username}
                       disabled={isSubmitting}
                       label={t`Username`}
                       name="username"
@@ -327,9 +331,19 @@ export function Component() {
 
                     <PasswordInput
                       autoComplete="current-password"
+                      defaultValue={actionData?.values?.password}
                       disabled={isSubmitting}
                       label={t`Password`}
                       name="password"
+                    />
+
+                    <Checkbox
+                      defaultChecked={
+                        actionData?.values?.saveCredentials ?? false
+                      }
+                      disabled={isSubmitting}
+                      label={t`Save username and password`}
+                      name="saveCredentials"
                     />
 
                     <Group justify="end">
@@ -377,7 +391,7 @@ export function Component() {
                 />
 
                 <input
-                  defaultValue={actionData?.values.https ? 'on' : ''}
+                  defaultValue={actionData?.values.https ? 'on' : undefined}
                   name="https"
                   type="hidden"
                 />
@@ -403,6 +417,14 @@ export function Component() {
                 <input
                   defaultValue={actionData?.values.password}
                   name="password"
+                  type="hidden"
+                />
+
+                <input
+                  defaultValue={
+                    actionData?.values.saveCredentials ? 'on' : undefined
+                  }
+                  name="saveCredentials"
                   type="hidden"
                 />
 
