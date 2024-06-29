@@ -5,7 +5,6 @@ import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/transmission-web-client',
   build: {
     sourcemap: true,
     target: 'esnext',
