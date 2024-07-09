@@ -33,13 +33,12 @@ describe('makeTransmissionRpcRequest', () => {
     };
 
     const responder = vi.fn<
-      [
-        req: {
-          headers: Record<string, string>;
-          body: unknown;
-        },
-      ],
-      StrictResponse<DefaultBodyType> | Promise<StrictResponse<DefaultBodyType>>
+      (req: {
+        headers: Record<string, string>;
+        body: unknown;
+      }) =>
+        | StrictResponse<DefaultBodyType>
+        | Promise<StrictResponse<DefaultBodyType>>
     >(() => HttpResponse.text('Unexpected request', { status: 400 }));
 
     server.use(
