@@ -14,7 +14,7 @@
     "check-size-limits": "size-limit --highlight-less",
     "start": "vite preview"
   },
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "devDependencies": {
     "@faergeek/eslint-config": "^6.1.4",
     "@faergeek/monads": "^1.1.0",
