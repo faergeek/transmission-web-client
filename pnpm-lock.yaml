@@ -79,7 +79,7 @@ importers:
         version: 0.5.4(@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.2)(sugarss@4.0.1(postcss@8.4.41)))
       msw:
         specifier: ^2.3.1
-        version: 2.3.5(typescript@5.5.4)
+        version: 2.4.1(graphql@16.9.0)(typescript@5.5.4)
       postcss:
         specifier: ^8.4.38
         version: 8.4.41
@@ -549,20 +549,20 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@inquirer/confirm@3.1.20':
-    resolution: {integrity: sha512-UvG5Plh0MfCqUvZB8RKzBBEWB/EeMzO59Awy/Jg4NgeSjIPqhPaQFnnmxiyWUTwZh4uENB7wCklEFUwckioXWg==}
+  '@inquirer/confirm@3.1.22':
+    resolution: {integrity: sha512-gsAKIOWBm2Q87CDfs9fEo7wJT3fwWIJfnDGMn9Qy74gBnNFOACDNfhUzovubbJjWnKLGBln7/NcSmZwj5DuEXg==}
     engines: {node: '>=18'}
 
-  '@inquirer/core@9.0.8':
-    resolution: {integrity: sha512-ttnI/BGlP9SxjbQnv1nssv7dPAwiR82KmjJZx2SxSZyi2mGbaEvh4jg0I4yU/4mVQf7QvCVGGr/hGuJFEYhwnw==}
+  '@inquirer/core@9.0.10':
+    resolution: {integrity: sha512-TdESOKSVwf6+YWDz8GhS6nKscwzkIyakEzCLJ5Vh6O3Co2ClhCJ0A4MG909MUWfaWdpJm7DE45ii51/2Kat9tA==}
     engines: {node: '>=18'}
 
   '@inquirer/figures@1.0.5':
     resolution: {integrity: sha512-79hP/VWdZ2UVc9bFGJnoQ/lQMpL74mGgzSYX1xUqCVk7/v73vJCMw1VuyWN1jGkZ9B3z7THAbySqGbCNefcjfA==}
     engines: {node: '>=18'}
 
-  '@inquirer/type@1.5.1':
-    resolution: {integrity: sha512-m3YgGQlKNS0BM+8AFiJkCsTqHEFCWn6s/Rqye3mYwvqY6LdfUv12eSwbsgNzrYyrLXiy7IrrjDLPysaSBwEfhw==}
+  '@inquirer/type@1.5.2':
+    resolution: {integrity: sha512-w9qFkumYDCNyDZmNQjf/n6qQuvQ4dMC3BJesY4oF+yr0CxR5vxujflAVeIcS6U336uzi9GM0kAfZlLrZ9UTkpA==}
     engines: {node: '>=18'}
 
   '@isaacs/cliui@8.0.2':
@@ -1482,8 +1482,8 @@ packages:
     engines: {node: '>=12'}
     hasBin: true
 
-  escalade@3.1.2:
-    resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
+  escalade@3.2.0:
+    resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
 
   escape-string-regexp@1.0.5:
@@ -2113,13 +2113,16 @@ packages:
   ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
-  msw@2.3.5:
-    resolution: {integrity: sha512-+GUI4gX5YC5Bv33epBrD+BGdmDvBg2XGruiWnI3GbIbRmMMBeZ5gs3mJ51OWSGHgJKztZ8AtZeYMMNMVrje2/Q==}
+  msw@2.4.1:
+    resolution: {integrity: sha512-HXcoQPzYTwEmVk+BGIcRa0vLabBT+J20SSSeYh/QfajaK5ceA6dlD4ZZjfz2dqGEq4vRNCPLP6eXsB94KllPFg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
+      graphql: '>= 16.8.x'
       typescript: '>= 4.7.x'
     peerDependenciesMeta:
+      graphql:
+        optional: true
       typescript:
         optional: true
 
@@ -2794,12 +2797,12 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
-  type-fest@4.23.0:
-    resolution: {integrity: sha512-ZiBujro2ohr5+Z/hZWHESLz3g08BBdrdLMieYFULJO+tWc437sn8kQsWLJoZErY8alNhxre9K4p3GURAG11n+w==}
-    engines: {node: '>=16'}
-
   type-fest@4.24.0:
     resolution: {integrity: sha512-spAaHzc6qre0TlZQQ2aA/nGMe+2Z/wyGk5Z+Ru2VUfdNwT6kWO6TjevOlpebsATEG1EIQ2sOiDszud3lO5mt/Q==}
+    engines: {node: '>=16'}
+
+  type-fest@4.26.0:
+    resolution: {integrity: sha512-OduNjVJsFbifKb57UqZ2EMP1i4u64Xwow3NYXUtBbD4vIwJdQd4+xl8YDou1dlm4DVrtwT/7Ky8z8WyCULVfxw==}
     engines: {node: '>=16'}
 
   typed-array-buffer@1.0.2:
@@ -3392,15 +3395,15 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@inquirer/confirm@3.1.20':
+  '@inquirer/confirm@3.1.22':
     dependencies:
-      '@inquirer/core': 9.0.8
-      '@inquirer/type': 1.5.1
+      '@inquirer/core': 9.0.10
+      '@inquirer/type': 1.5.2
 
-  '@inquirer/core@9.0.8':
+  '@inquirer/core@9.0.10':
     dependencies:
       '@inquirer/figures': 1.0.5
-      '@inquirer/type': 1.5.1
+      '@inquirer/type': 1.5.2
       '@types/mute-stream': 0.0.4
       '@types/node': 22.5.1
       '@types/wrap-ansi': 3.0.0
@@ -3415,7 +3418,7 @@ snapshots:
 
   '@inquirer/figures@1.0.5': {}
 
-  '@inquirer/type@1.5.1':
+  '@inquirer/type@1.5.2':
     dependencies:
       mute-stream: 1.0.0
 
@@ -4511,7 +4514,7 @@ snapshots:
       '@esbuild/win32-ia32': 0.21.5
       '@esbuild/win32-x64': 0.21.5
 
-  escalade@3.1.2: {}
+  escalade@3.2.0: {}
 
   escape-string-regexp@1.0.5: {}
 
@@ -4824,7 +4827,8 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  graphql@16.9.0: {}
+  graphql@16.9.0:
+    optional: true
 
   has-bigints@1.0.2: {}
 
@@ -5171,26 +5175,26 @@ snapshots:
 
   ms@2.1.2: {}
 
-  msw@2.3.5(typescript@5.5.4):
+  msw@2.4.1(graphql@16.9.0)(typescript@5.5.4):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.0
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
-      '@inquirer/confirm': 3.1.20
+      '@inquirer/confirm': 3.1.22
       '@mswjs/interceptors': 0.29.1
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.6.0
       '@types/statuses': 2.0.5
       chalk: 4.1.2
-      graphql: 16.9.0
       headers-polyfill: 4.0.3
       is-node-process: 1.2.0
       outvariant: 1.4.3
       path-to-regexp: 6.2.2
       strict-event-emitter: 0.5.1
-      type-fest: 4.23.0
+      type-fest: 4.26.0
       yargs: 17.7.2
     optionalDependencies:
+      graphql: 16.9.0
       typescript: 5.5.4
 
   mute-stream@0.0.8: {}
@@ -5852,9 +5856,9 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  type-fest@4.23.0: {}
-
   type-fest@4.24.0: {}
+
+  type-fest@4.26.0: {}
 
   typed-array-buffer@1.0.2:
     dependencies:
@@ -5908,7 +5912,7 @@ snapshots:
   update-browserslist-db@1.1.0(browserslist@4.23.3):
     dependencies:
       browserslist: 4.23.3
-      escalade: 3.1.2
+      escalade: 3.2.0
       picocolors: 1.0.1
 
   uri-js@4.4.1:
@@ -6111,7 +6115,7 @@ snapshots:
   yargs@17.7.2:
     dependencies:
       cliui: 8.0.1
-      escalade: 3.1.2
+      escalade: 3.2.0
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
