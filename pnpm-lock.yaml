@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@faergeek/eslint-config':
         specifier: ^6.1.14
-        version: 6.1.24(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))
+        version: 6.1.24(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))
       '@faergeek/monads':
         specifier: ^1.1.0
         version: 1.1.0
@@ -76,10 +76,10 @@ importers:
         version: 0.3.0(eslint@8.57.1)(typescript@5.6.2)
       eslint-plugin-vitest:
         specifier: ^0.5.4
-        version: 0.5.4(@typescript-eslint/eslint-plugin@8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))
+        version: 0.5.4(@typescript-eslint/eslint-plugin@8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))
       msw:
         specifier: ^2.3.1
-        version: 2.4.8(typescript@5.6.2)
+        version: 2.4.9(typescript@5.6.2)
       postcss:
         specifier: ^8.4.38
         version: 8.4.47
@@ -127,7 +127,7 @@ importers:
         version: 5.4.7(@types/node@20.16.5)(sugarss@4.0.1(postcss@8.4.47))
       vitest:
         specifier: ^2.0.0
-        version: 2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47))
+        version: 2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47))
 
 packages:
 
@@ -670,8 +670,8 @@ packages:
   '@messageformat/parser@5.1.0':
     resolution: {integrity: sha512-jKlkls3Gewgw6qMjKZ9SFfHUpdzEVdovKFtW1qRhJ3WI4FW5R/NnGDqr8SDGz+krWDO3ki94boMmQvGke1HwUQ==}
 
-  '@mswjs/interceptors@0.35.6':
-    resolution: {integrity: sha512-PpD687w7qLxVMK176bpQjbzU9O0VC75QnBK5U1lKd29s4hIuxfTItUD6raNKyQ6BN8b64/8HE34RuYTkwH9uPQ==}
+  '@mswjs/interceptors@0.35.8':
+    resolution: {integrity: sha512-PFfqpHplKa7KMdoQdj5td03uG05VK2Ng1dG0sP4pT9h0dGSX2v9txYt/AnrzPb/vAmfyBBC0NQV7VaBEX+efgQ==}
     engines: {node: '>=18'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -2088,8 +2088,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msw@2.4.8:
-    resolution: {integrity: sha512-a+FUW1m5yT8cV9GBy0L/cbNg0EA4//SKEzgu3qFrpITrWYeZmqfo7dqtM74T2lAl69jjUjjCaEhZKaxG2Ns8DA==}
+  msw@2.4.9:
+    resolution: {integrity: sha512-1m8xccT6ipN4PTqLinPwmzhxQREuxaEJYdx4nIbggxP8aM7r1e71vE7RtOUSQoAm1LydjGfZKy7370XD/tsuYg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -3292,7 +3292,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@faergeek/eslint-config@6.1.24(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))':
+  '@faergeek/eslint-config@6.1.24(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))':
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)
       '@typescript-eslint/parser': 8.6.0(eslint@8.57.1)(typescript@5.6.2)
@@ -3301,7 +3301,7 @@ snapshots:
       eslint-plugin-react: 7.36.1(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
       eslint-plugin-simple-import-sort: 12.1.1(eslint@8.57.1)
-      eslint-plugin-vitest: 0.5.4(@typescript-eslint/eslint-plugin@8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))
+      eslint-plugin-vitest: 0.5.4(@typescript-eslint/eslint-plugin@8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)))
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3536,7 +3536,7 @@ snapshots:
     dependencies:
       moo: 0.5.2
 
-  '@mswjs/interceptors@0.35.6':
+  '@mswjs/interceptors@0.35.8':
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
       '@open-draft/logger': 0.3.0
@@ -3936,13 +3936,13 @@ snapshots:
       chai: 5.1.1
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.1(@vitest/spy@2.1.1)(msw@2.4.8(typescript@5.6.2))(vite@5.4.7(@types/node@20.16.5)(sugarss@4.0.1(postcss@8.4.47)))':
+  '@vitest/mocker@2.1.1(@vitest/spy@2.1.1)(msw@2.4.9(typescript@5.6.2))(vite@5.4.7(@types/node@20.16.5)(sugarss@4.0.1(postcss@8.4.47)))':
     dependencies:
       '@vitest/spy': 2.1.1
       estree-walker: 3.0.3
       magic-string: 0.30.11
     optionalDependencies:
-      msw: 2.4.8(typescript@5.6.2)
+      msw: 2.4.9(typescript@5.6.2)
       vite: 5.4.7(@types/node@20.16.5)(sugarss@4.0.1(postcss@8.4.47))
 
   '@vitest/pretty-format@2.1.1':
@@ -4520,13 +4520,13 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-plugin-vitest@0.5.4(@typescript-eslint/eslint-plugin@8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47))):
+  eslint-plugin-vitest@0.5.4(@typescript-eslint/eslint-plugin@8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)(vitest@2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47))):
     dependencies:
       '@typescript-eslint/utils': 7.18.0(eslint@8.57.1)(typescript@5.6.2)
       eslint: 8.57.1
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.6.0(@typescript-eslint/parser@8.6.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)
-      vitest: 2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47))
+      vitest: 2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47))
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5094,13 +5094,13 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.4.8(typescript@5.6.2):
+  msw@2.4.9(typescript@5.6.2):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.0
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
       '@inquirer/confirm': 3.2.0
-      '@mswjs/interceptors': 0.35.6
+      '@mswjs/interceptors': 0.35.8
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.6.0
       '@types/statuses': 2.0.5
@@ -5896,10 +5896,10 @@ snapshots:
       fsevents: 2.3.3
       sugarss: 4.0.1(postcss@8.4.47)
 
-  vitest@2.1.1(@types/node@20.16.5)(msw@2.4.8(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)):
+  vitest@2.1.1(@types/node@20.16.5)(msw@2.4.9(typescript@5.6.2))(sugarss@4.0.1(postcss@8.4.47)):
     dependencies:
       '@vitest/expect': 2.1.1
-      '@vitest/mocker': 2.1.1(@vitest/spy@2.1.1)(msw@2.4.8(typescript@5.6.2))(vite@5.4.7(@types/node@20.16.5)(sugarss@4.0.1(postcss@8.4.47)))
+      '@vitest/mocker': 2.1.1(@vitest/spy@2.1.1)(msw@2.4.9(typescript@5.6.2))(vite@5.4.7(@types/node@20.16.5)(sugarss@4.0.1(postcss@8.4.47)))
       '@vitest/pretty-format': 2.1.1
       '@vitest/runner': 2.1.1
       '@vitest/snapshot': 2.1.1
