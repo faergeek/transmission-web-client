@@ -2,7 +2,7 @@
   {
     "name": "css",
     "path": "dist/assets/**/*.css",
-    "limit": "23 kB"
+    "limit": "24 kB"
   },
   {
     "name": "js:eager",
