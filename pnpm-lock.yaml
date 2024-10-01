@@ -49,7 +49,7 @@ importers:
         version: 1.19.2
       '@size-limit/file':
         specifier: ^11.1.4
-        version: 11.1.5(size-limit@11.1.6)
+        version: 11.1.6(size-limit@11.1.6)
       '@tabler/icons-react':
         specifier: ^3.6.0
         version: 3.19.0(react@18.3.1)
@@ -790,11 +790,11 @@ packages:
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
-  '@size-limit/file@11.1.5':
-    resolution: {integrity: sha512-oz/XBVUJh95GpzDb9/f4sEQD/ACJ9zEKSRgBtvMUTN0c+O/9uq+RzvFeXFN2Kjpx3Dmur1ta+oZsp3zQFxlb3Q==}
+  '@size-limit/file@11.1.6':
+    resolution: {integrity: sha512-ojzzJMrTfcSECRnaTjGy0wNIolTCRdyqZTSWG9sG5XEoXG6PNgHXDDS6gf6YNxnqb+rWfCfVe93u6aKi3wEocQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
-      size-limit: 11.1.5
+      size-limit: 11.1.6
 
   '@swc/core-darwin-arm64@1.7.26':
     resolution: {integrity: sha512-FF3CRYTg6a7ZVW4yT9mesxoVVZTrcSWtmZhxKCYJX9brH4CS/7PRPjAKNk6kzWgWuRoglP7hkjQcd6EpMcZEAw==}
@@ -3622,7 +3622,7 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@size-limit/file@11.1.5(size-limit@11.1.6)':
+  '@size-limit/file@11.1.6(size-limit@11.1.6)':
     dependencies:
       size-limit: 11.1.6
 
