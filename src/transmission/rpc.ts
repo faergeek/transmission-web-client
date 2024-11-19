@@ -292,9 +292,7 @@ export async function makeTransmissionRpcRequest<
 
     if (server.password && server.username) {
       req.headers.set(
-        // eslint-disable-next-line lingui/no-unlocalized-strings
         'Authorization',
-        // eslint-disable-next-line lingui/no-unlocalized-strings
         `Basic ${base64Encode(`${server.username}:${server.password}`)}`,
       );
     }

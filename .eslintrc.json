@@ -18,7 +18,6 @@
       "excludedFiles": ["*.spec.*"],
       "plugins": ["lingui"],
       "rules": {
-        "lingui/no-unlocalized-strings": "warn",
         "lingui/t-call-in-function": "warn",
         "lingui/no-single-variables-to-translate": "warn",
         "lingui/no-expression-in-message": "warn",
