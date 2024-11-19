@@ -11,7 +11,6 @@ export function HydrateFallback() {
   );
 }
 
-/* eslint-disable lingui/no-unlocalized-strings */
 export function ErrorBoundary() {
   const error = useRouteError();
 
@@ -44,4 +43,3 @@ export function ErrorBoundary() {
     </Stack>
   );
 }
-/* eslint-enable lingui/no-unlocalized-strings */
