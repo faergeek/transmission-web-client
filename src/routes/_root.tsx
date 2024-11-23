@@ -1,7 +1,7 @@
 import { Alert, Anchor, Box, Loader, Stack } from '@mantine/core';
 import { IconAlertTriangleFilled } from '@tabler/icons-react';
 import { useEffect } from 'react';
-import { useRouteError } from 'react-router-dom';
+import { useRouteError } from 'react-router';
 
 export function HydrateFallback() {
   return (

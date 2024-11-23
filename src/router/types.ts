@@ -4,7 +4,7 @@ import type {
   IndexRouteObject,
   NonIndexRouteObject,
   Params,
-} from 'react-router-dom';
+} from 'react-router';
 
 import type { AppStore } from '../store/create';
 

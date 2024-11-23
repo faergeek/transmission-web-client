@@ -1,4 +1,4 @@
-import { redirect } from 'react-router-dom';
+import { redirect } from 'react-router';
 
 import type { AppStore } from '../store/create';
 import { useAppDispatch } from '../store/utils';
