@@ -5,7 +5,7 @@ import { i18n } from '@lingui/core';
 import { QueryClient } from '@tanstack/react-query';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router';
 import invariant from 'tiny-invariant';
 
 import { App } from './app';
@@ -31,13 +31,6 @@ const contextToInject = { i18n, queryClient, store };
 
 const router = createBrowserRouter(getRoutes(contextToInject), {
   basename: import.meta.env.BASE_URL,
-  future: {
-    v7_skipActionErrorRevalidation: true,
-    v7_fetcherPersist: true,
-    v7_normalizeFormMethod: true,
-    v7_partialHydration: true,
-    v7_relativeSplatPath: true,
-  },
 });
 
 if (import.meta.hot) {

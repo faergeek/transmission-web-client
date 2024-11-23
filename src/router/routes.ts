@@ -3,7 +3,7 @@ import type {
   LazyRouteFunction,
   LoaderFunctionArgs,
   RouteObject,
-} from 'react-router-dom';
+} from 'react-router';
 
 import type {
   AppNonIndexRouteObject,

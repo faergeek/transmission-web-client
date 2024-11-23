@@ -1,6 +1,6 @@
 import { Result } from '@faergeek/monads';
 import { queryOptions, skipToken } from '@tanstack/react-query';
-import { redirect } from 'react-router-dom';
+import { redirect } from 'react-router';
 import invariant from 'tiny-invariant';
 
 import type { ServerUrlInput } from '../servers/types';

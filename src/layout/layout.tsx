@@ -15,7 +15,7 @@ import {
   IconServerCog,
   IconSettings,
 } from '@tabler/icons-react';
-import { useFetcher } from 'react-router-dom';
+import { useFetcher } from 'react-router';
 
 import { localesMeta, supportedLocales } from '../i18n';
 import { selectCurrentServer } from '../servers/slice';

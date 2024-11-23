@@ -9,7 +9,7 @@ import {
   TextInput,
 } from '@mantine/core';
 import { IconLockOpen } from '@tabler/icons-react';
-import { Form, redirect, useNavigation } from 'react-router-dom';
+import { Form, redirect, useNavigation } from 'react-router';
 import * as S from 'superstruct';
 
 import type { AppActionArgs, AppLoaderArgs } from '../router/types';

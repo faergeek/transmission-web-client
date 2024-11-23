@@ -1,5 +1,5 @@
 import { I18nProvider } from '@lingui/react';
-import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router';
 import * as S from 'superstruct';
 
 import { activateLocale, findSupportedLocale } from '../i18n';

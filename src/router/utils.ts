@@ -1,4 +1,4 @@
-import { useActionData, useLoaderData } from 'react-router-dom';
+import { useActionData, useLoaderData } from 'react-router';
 
 import type { AppActionFunction, AppLoaderFunction } from './types';
 
