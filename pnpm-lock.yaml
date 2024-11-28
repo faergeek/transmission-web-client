@@ -16,25 +16,25 @@ importers:
         version: 1.1.0
       '@lingui/cli':
         specifier: ^4.11.1
-        version: 4.14.0(typescript@5.7.2)
+        version: 4.14.1(typescript@5.7.2)
       '@lingui/conf':
         specifier: ^4.11.1
-        version: 4.14.0(typescript@5.7.2)
+        version: 4.14.1(typescript@5.7.2)
       '@lingui/core':
         specifier: ^4.11.1
-        version: 4.14.0
+        version: 4.14.1
       '@lingui/macro':
         specifier: ^4.11.1
-        version: 4.14.0(@lingui/react@4.14.0(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2)
+        version: 4.14.1(@lingui/react@4.14.1(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2)
       '@lingui/react':
         specifier: ^4.11.1
-        version: 4.14.0(react@18.3.1)
+        version: 4.14.1(react@18.3.1)
       '@lingui/swc-plugin':
         specifier: ^4.0.8
-        version: 4.1.0(@lingui/macro@4.14.0(@lingui/react@4.14.0(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2))
+        version: 4.1.0(@lingui/macro@4.14.1(@lingui/react@4.14.1(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2))
       '@lingui/vite-plugin':
         specifier: ^4.11.1
-        version: 4.14.0(typescript@5.7.2)(vite@5.4.11(@types/node@22.9.4)(sugarss@4.0.1(postcss@8.4.49)))
+        version: 4.14.1(typescript@5.7.2)(vite@5.4.11(@types/node@22.9.4)(sugarss@4.0.1(postcss@8.4.49)))
       '@mantine/core':
         specifier: ^7.10.2
         version: 7.14.2(@mantine/hooks@7.14.2(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -585,40 +585,40 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lingui/babel-plugin-extract-messages@4.14.0':
-    resolution: {integrity: sha512-lLabYkUsiF0un4ezColFm9Yf23c+efPR/5DRM9cFwW9uZJ5ajN4Ic00dBxJK9HOpy6fpaANnaHFmrm4NScijvQ==}
+  '@lingui/babel-plugin-extract-messages@4.14.1':
+    resolution: {integrity: sha512-X/2bKavX5HGaiLyGpGvw98XqrqKuTntD4IdLmwvCOh7c/pgM8u95brONixLFEBeLujba4IF+fvHo0RdlyOFKpg==}
     engines: {node: '>=16.0.0'}
 
-  '@lingui/cli@4.14.0':
-    resolution: {integrity: sha512-g9aJ76wpl6Fj06SEGiGnilAErEuZG6/woAU1HM81E0ZZ8ib1DF+cf81PJE+8Lwoxc0yMqY8qMScwhwcUhnR0aA==}
+  '@lingui/cli@4.14.1':
+    resolution: {integrity: sha512-4DUtjHg5fumZ+hX8bcGYGZw9A6F5JURTMrI8Z6MSkO26OeSHEtPcheGFiPYfNhFeON6fZWZmwgyV9kkb0+psug==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
-  '@lingui/conf@4.14.0':
-    resolution: {integrity: sha512-wHZ4s79wqPnROa3xEoUTNep7sjqwbDHCMLBhsHbcvk/3ACDKgm0TMvDnIRjMRwrPRsK98yxSmWaE+NKhT0Ggyw==}
+  '@lingui/conf@4.14.1':
+    resolution: {integrity: sha512-LE/1RrVoMebQK+u4y6VQJdSwjOsMu4go/VR8m1eH0THn8vfkuLOYlPTIAHTWcoO+Ogi15p5TqHPfJcgVBy/NpA==}
     engines: {node: '>=16.0.0'}
 
-  '@lingui/core@4.14.0':
-    resolution: {integrity: sha512-rsuBKG3mupWpfP5RYacufu0ToavrqgFPnEI/zOcuvMNL24IlZ38O2/P3POZCEA8XCyhON70FICy8xs3ZvQ+uWg==}
+  '@lingui/core@4.14.1':
+    resolution: {integrity: sha512-3O6bnNzApWjb+jIdXa7G2VbrP6jZ5nfCeYSVloEYg6YFIfsQ3GunccK6I2nL80mWgr2qGP4VilGD+ODCeXHITA==}
     engines: {node: '>=16.0.0'}
 
-  '@lingui/format-po@4.14.0':
-    resolution: {integrity: sha512-3Bmk9f7lRuBoZsBG5c5hq5ipgAqeux+nDVnAIXSfsp4f8jj+z+cHwW0xuHcW48mHQFwfcTGAYZcKnwhuwwut6Q==}
+  '@lingui/format-po@4.14.1':
+    resolution: {integrity: sha512-SfT3/4LspwDq5KNyN+HUsDiF2IVMBk0LS6ruEG+vGOKNXzdSpnuxAT5E6wgGA/4/MG2UF9WKBzfkfOsYeXmSEg==}
     engines: {node: '>=16.0.0'}
 
-  '@lingui/macro@4.14.0':
-    resolution: {integrity: sha512-zZNPYVwCMvKcDtaPzYDhkfogbUMEKCsCEIqvXrKI2DujLjV7DWGJ97U99h9iGDeBrEIZqFHnimsAwbb2lfRPaQ==}
+  '@lingui/macro@4.14.1':
+    resolution: {integrity: sha512-kVAe78Sj4a74GJTOOqoAzxZgsgqPfcBFQC1akXMlAv9r4bX7zvbMov2cQVWjvix0waetwxo3oVqlSozsa8UPAw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@lingui/react': ^4.0.0
       babel-plugin-macros: 2 || 3
 
-  '@lingui/message-utils@4.14.0':
-    resolution: {integrity: sha512-izZod/6P2cXtqZt06r+VcbG3oCskPY8A1dVA8hyx0UZBCaufrZk6NgzCMYTMRXyOuXt6MafQyUfBJSrE4n3FIw==}
+  '@lingui/message-utils@4.14.1':
+    resolution: {integrity: sha512-J6MzyTLNCzEnyR1Da188G81cRcQMbk/lyYnLWMzQjIELDX8bBBwNea91Sf5Zm+BB+ADWmmGTdUqRPAjDqT9Y5w==}
     engines: {node: '>=16.0.0'}
 
-  '@lingui/react@4.14.0':
-    resolution: {integrity: sha512-20gk22E3RZar4Wcdt/gBtHfi1UZTQvEX5XaCDZF9iAyIlwIWxA+eTquNwg08tYl4Ne6o8jjUGEWcNBJ3ZnlXhg==}
+  '@lingui/react@4.14.1':
+    resolution: {integrity: sha512-oZ9Rw+vOXJuaZvI1o4ASAIbCSe7AchCxsKGc0Y3csduTEOisvhsLgh8UDA8LW1mRgVPh5yZYB+VbfDMDQSzHpg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -635,8 +635,8 @@ packages:
       next:
         optional: true
 
-  '@lingui/vite-plugin@4.14.0':
-    resolution: {integrity: sha512-1UilkYXIA8xfexlndsbsfS7AQi0Qm0VRSf92DWw5YCACFuk8Exb1su/CYrQu/YWk0MfcDY6/7rJDEOPWGgBRWA==}
+  '@lingui/vite-plugin@4.14.1':
+    resolution: {integrity: sha512-K5lhG7IxpmxaDgmR4hOtPftJzCq3VGzq7VZnhBUHQPDxTf8fXj2xVNG3lUJtUkDepRhRLIjbCFT9e3f2VnUwZw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       vite: ^3 || ^4 || ^5.0.9
@@ -1350,8 +1350,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.64:
-    resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
+  electron-to-chromium@1.5.66:
+    resolution: {integrity: sha512-pI2QF6+i+zjPbqRzJwkMvtvkdI7MjVbSh2g8dlMguDJIXEPw+kwasS1Jl+YGPEBfGVxsVgGUratAKymPdPo2vQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3286,20 +3286,20 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lingui/babel-plugin-extract-messages@4.14.0': {}
+  '@lingui/babel-plugin-extract-messages@4.14.1': {}
 
-  '@lingui/cli@4.14.0(typescript@5.7.2)':
+  '@lingui/cli@4.14.1(typescript@5.7.2)':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/generator': 7.26.2
       '@babel/parser': 7.26.2
       '@babel/runtime': 7.26.0
       '@babel/types': 7.26.0
-      '@lingui/babel-plugin-extract-messages': 4.14.0
-      '@lingui/conf': 4.14.0(typescript@5.7.2)
-      '@lingui/core': 4.14.0
-      '@lingui/format-po': 4.14.0(typescript@5.7.2)
-      '@lingui/message-utils': 4.14.0
+      '@lingui/babel-plugin-extract-messages': 4.14.1
+      '@lingui/conf': 4.14.1(typescript@5.7.2)
+      '@lingui/core': 4.14.1
+      '@lingui/format-po': 4.14.1(typescript@5.7.2)
+      '@lingui/message-utils': 4.14.1
       babel-plugin-macros: 3.1.0
       chalk: 4.1.2
       chokidar: 3.5.1
@@ -3323,7 +3323,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@lingui/conf@4.14.0(typescript@5.7.2)':
+  '@lingui/conf@4.14.1(typescript@5.7.2)':
     dependencies:
       '@babel/runtime': 7.26.0
       chalk: 4.1.2
@@ -3334,52 +3334,52 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@lingui/core@4.14.0':
+  '@lingui/core@4.14.1':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@lingui/message-utils': 4.14.0
+      '@lingui/message-utils': 4.14.1
       unraw: 3.0.0
 
-  '@lingui/format-po@4.14.0(typescript@5.7.2)':
+  '@lingui/format-po@4.14.1(typescript@5.7.2)':
     dependencies:
-      '@lingui/conf': 4.14.0(typescript@5.7.2)
-      '@lingui/message-utils': 4.14.0
+      '@lingui/conf': 4.14.1(typescript@5.7.2)
+      '@lingui/message-utils': 4.14.1
       date-fns: 3.6.0
       pofile: 1.1.4
     transitivePeerDependencies:
       - typescript
 
-  '@lingui/macro@4.14.0(@lingui/react@4.14.0(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2)':
+  '@lingui/macro@4.14.1(@lingui/react@4.14.1(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@babel/types': 7.26.0
-      '@lingui/conf': 4.14.0(typescript@5.7.2)
-      '@lingui/core': 4.14.0
-      '@lingui/message-utils': 4.14.0
-      '@lingui/react': 4.14.0(react@18.3.1)
+      '@lingui/conf': 4.14.1(typescript@5.7.2)
+      '@lingui/core': 4.14.1
+      '@lingui/message-utils': 4.14.1
+      '@lingui/react': 4.14.1(react@18.3.1)
       babel-plugin-macros: 3.1.0
     transitivePeerDependencies:
       - typescript
 
-  '@lingui/message-utils@4.14.0':
+  '@lingui/message-utils@4.14.1':
     dependencies:
       '@messageformat/parser': 5.1.0
       js-sha256: 0.10.1
 
-  '@lingui/react@4.14.0(react@18.3.1)':
+  '@lingui/react@4.14.1(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@lingui/core': 4.14.0
+      '@lingui/core': 4.14.1
       react: 18.3.1
 
-  '@lingui/swc-plugin@4.1.0(@lingui/macro@4.14.0(@lingui/react@4.14.0(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2))':
+  '@lingui/swc-plugin@4.1.0(@lingui/macro@4.14.1(@lingui/react@4.14.1(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2))':
     dependencies:
-      '@lingui/macro': 4.14.0(@lingui/react@4.14.0(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2)
+      '@lingui/macro': 4.14.1(@lingui/react@4.14.1(react@18.3.1))(babel-plugin-macros@3.1.0)(typescript@5.7.2)
 
-  '@lingui/vite-plugin@4.14.0(typescript@5.7.2)(vite@5.4.11(@types/node@22.9.4)(sugarss@4.0.1(postcss@8.4.49)))':
+  '@lingui/vite-plugin@4.14.1(typescript@5.7.2)(vite@5.4.11(@types/node@22.9.4)(sugarss@4.0.1(postcss@8.4.49)))':
     dependencies:
-      '@lingui/cli': 4.14.0(typescript@5.7.2)
-      '@lingui/conf': 4.14.0(typescript@5.7.2)
+      '@lingui/cli': 4.14.1(typescript@5.7.2)
+      '@lingui/conf': 4.14.1(typescript@5.7.2)
       vite: 5.4.11(@types/node@22.9.4)(sugarss@4.0.1(postcss@8.4.49))
     transitivePeerDependencies:
       - supports-color
@@ -3888,7 +3888,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001684
-      electron-to-chromium: 1.5.64
+      electron-to-chromium: 1.5.66
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -4077,7 +4077,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.64: {}
+  electron-to-chromium@1.5.66: {}
 
   emoji-regex@8.0.0: {}
 
