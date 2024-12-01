@@ -23,7 +23,7 @@
     "@lingui/core": "^4.11.1",
     "@lingui/macro": "^4.11.1",
     "@lingui/react": "^4.11.1",
-    "@lingui/swc-plugin": "^4.0.8",
+    "@lingui/swc-plugin": "^5.0.0",
     "@lingui/vite-plugin": "^4.11.1",
     "@mantine/core": "^7.10.2",
     "@mantine/hooks": "^7.10.2",
