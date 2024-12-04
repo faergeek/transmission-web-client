@@ -31,7 +31,7 @@ importers:
         version: 5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0)(react@18.3.1)
       '@lingui/swc-plugin':
         specifier: ^5.0.0
-        version: 5.0.0(@lingui/macro@5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0)(react@18.3.1))
+        version: 5.0.1(@lingui/core@5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0))
       '@lingui/vite-plugin':
         specifier: ^5.0.0
         version: 5.0.0(typescript@5.7.2)(vite@6.0.2(@types/node@22.10.1)(jiti@2.4.1)(sugarss@4.0.1(postcss@8.4.49)))
@@ -664,10 +664,10 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  '@lingui/swc-plugin@5.0.0':
-    resolution: {integrity: sha512-vrecMcWwGlUPpg7pQIIaSaSBfnRtrm3QnMgBgtEKlrCYxDpemlgqnOvIh5y7p1X19Ryzn8IISzXmGzSvXfNE0g==}
+  '@lingui/swc-plugin@5.0.1':
+    resolution: {integrity: sha512-rb9x/UWk0dibp3VsIwKGjuGPX6CBkcqCsDi/3eIJ0bljAI+YKpKXo2QrMuiPsF2RSXsJy+0ry8GibLBOvTJwxA==}
     peerDependencies:
-      '@lingui/macro': '4'
+      '@lingui/core': '5'
       '@swc/core': '*'
       next: '*'
     peerDependenciesMeta:
@@ -3481,9 +3481,9 @@ snapshots:
       '@lingui/babel-plugin-lingui-macro': 5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2)
       babel-plugin-macros: 3.1.0
 
-  '@lingui/swc-plugin@5.0.0(@lingui/macro@5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0)(react@18.3.1))':
+  '@lingui/swc-plugin@5.0.1(@lingui/core@5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0))':
     dependencies:
-      '@lingui/macro': 5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0)(react@18.3.1)
+      '@lingui/core': 5.0.0(@lingui/babel-plugin-lingui-macro@5.0.0(babel-plugin-macros@3.1.0)(typescript@5.7.2))(babel-plugin-macros@3.1.0)
 
   '@lingui/vite-plugin@5.0.0(typescript@5.7.2)(vite@6.0.2(@types/node@22.10.1)(jiti@2.4.1)(sugarss@4.0.1(postcss@8.4.49)))':
     dependencies:
