@@ -41,7 +41,7 @@
               {
                 "name": "@lingui/react",
                 "importNames": ["Trans"],
-                "message": "Use Trans from @lingui/macro instead"
+                "message": "Use Trans from @lingui/react/macro instead"
               }
             ]
           }

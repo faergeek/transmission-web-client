@@ -1,5 +1,5 @@
 import type { I18n } from '@lingui/core';
-import { plural, t } from '@lingui/macro';
+import { plural, t } from '@lingui/core/macro';
 
 function formatUnits(
   i18n: I18n,
