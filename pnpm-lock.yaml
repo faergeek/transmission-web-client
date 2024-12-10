@@ -34,10 +34,10 @@ importers:
         version: 5.1.0(typescript@5.7.2)(vite@6.0.3(@types/node@22.10.1)(jiti@2.4.1)(sugarss@4.0.1(postcss@8.4.49)))
       '@mantine/core':
         specifier: ^7.10.2
-        version: 7.14.3(@mantine/hooks@7.14.3(react@18.3.1))(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 7.15.0(@mantine/hooks@7.15.0(react@18.3.1))(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mantine/hooks':
         specifier: ^7.10.2
-        version: 7.14.3(react@18.3.1)
+        version: 7.15.0(react@18.3.1)
       '@reduxjs/toolkit':
         specifier: ^2.2.5
         version: 2.4.0(react-redux@9.1.2(@types/react@18.3.14)(react@18.3.1)(redux@5.0.1))(react@18.3.1)
@@ -667,15 +667,15 @@ packages:
     peerDependencies:
       vite: ^3 || ^4 || ^5.0.9 || ^6
 
-  '@mantine/core@7.14.3':
-    resolution: {integrity: sha512-niAi+ZYBr4KrG+X2Mx+muvEzUOOHc/Rx0vsbIGYeNe7urwHSm/xNEGsaapmCqeRC0CSL4KI6TJOq8QhnSuQZcw==}
+  '@mantine/core@7.15.0':
+    resolution: {integrity: sha512-tZlRydfaEaaCNIi3tl1u+VtJxNyBoml2iCJAy6ZqcNNcjy/krJmta5lVtjUeApZfE33rkvr+3WVqGk0YjW6oSQ==}
     peerDependencies:
-      '@mantine/hooks': 7.14.3
+      '@mantine/hooks': 7.15.0
       react: ^18.x || ^19.x
       react-dom: ^18.x || ^19.x
 
-  '@mantine/hooks@7.14.3':
-    resolution: {integrity: sha512-cU3R9b8GLs6aCvpsVC56ZOOJCUIoDqX3RcLWkcfpA5a47LjWa/rzegP4YWfNW6/E9vodPJT4AEbYXVffYlyNwA==}
+  '@mantine/hooks@7.15.0':
+    resolution: {integrity: sha512-AV4ItRbVIWVDzpOPyj3ICrfQq7HEdKhO7IE7xxkdbJ4oj73DAq2jFsMoNdj3dN9u2tOn1bhPBIaP+8gKd0oAcw==}
     peerDependencies:
       react: ^18.x || ^19.x
 
@@ -2691,10 +2691,6 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
-  type-fest@4.29.1:
-    resolution: {integrity: sha512-Y1zUveI92UYM/vo1EFlQSsNf74+hfKH+7saZJslF0Fw92FRaiTAnHPIvo9d7SLxXt/gAYqA4RXyDTioMQCCp0A==}
-    engines: {node: '>=16'}
-
   type-fest@4.30.0:
     resolution: {integrity: sha512-G6zXWS1dLj6eagy6sVhOMQiLtJdxQBHIA9Z6HFUNLOlr6MFOgzV8wvmidtPONfPtEUv0uZsy77XJNzTAfwPDaA==}
     engines: {node: '>=16'}
@@ -2760,11 +2756,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  use-isomorphic-layout-effect@1.1.2:
-    resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
+  use-isomorphic-layout-effect@1.2.0:
+    resolution: {integrity: sha512-q6ayo8DWoPZT0VdG4u3D3uxcgONP3Mevx2i2b0434cwWBoL+aelL1DzkXI6w3PhTZzUeR2kaVlZn70iCiseP6w==}
     peerDependencies:
       '@types/react': '*'
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -3461,21 +3457,21 @@ snapshots:
       - supports-color
       - typescript
 
-  '@mantine/core@7.14.3(@mantine/hooks@7.14.3(react@18.3.1))(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mantine/core@7.15.0(@mantine/hooks@7.15.0(react@18.3.1))(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@floating-ui/react': 0.26.28(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@mantine/hooks': 7.14.3(react@18.3.1)
+      '@mantine/hooks': 7.15.0(react@18.3.1)
       clsx: 2.1.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-number-format: 5.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-remove-scroll: 2.6.0(@types/react@18.3.14)(react@18.3.1)
       react-textarea-autosize: 8.5.5(@types/react@18.3.14)(react@18.3.1)
-      type-fest: 4.29.1
+      type-fest: 4.30.0
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/hooks@7.14.3(react@18.3.1)':
+  '@mantine/hooks@7.15.0(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
@@ -5594,8 +5590,6 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  type-fest@4.29.1: {}
-
   type-fest@4.30.0: {}
 
   typed-array-buffer@1.0.2:
@@ -5672,7 +5666,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.14)(react@18.3.1):
+  use-isomorphic-layout-effect@1.2.0(@types/react@18.3.14)(react@18.3.1):
     dependencies:
       react: 18.3.1
     optionalDependencies:
@@ -5681,7 +5675,7 @@ snapshots:
   use-latest@1.2.1(@types/react@18.3.14)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.14)(react@18.3.1)
+      use-isomorphic-layout-effect: 1.2.0(@types/react@18.3.14)(react@18.3.1)
     optionalDependencies:
       '@types/react': 18.3.14
 
