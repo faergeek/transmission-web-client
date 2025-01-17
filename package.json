@@ -15,6 +15,9 @@
     "start": "vite preview"
   },
   "packageManager": "pnpm@9.15.4",
+  "resolutions": {
+    "@swc/core": "1.9.3"
+  },
   "devDependencies": {
     "@faergeek/eslint-config": "^6.1.14",
     "@faergeek/monads": "^1.1.0",
