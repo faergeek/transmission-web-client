@@ -18,6 +18,13 @@
   "resolutions": {
     "@swc/core": "1.9.3"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild",
+      "msw"
+    ]
+  },
   "devDependencies": {
     "@faergeek/eslint-config": "^7.0.0",
     "@faergeek/monads": "^1.1.0",
