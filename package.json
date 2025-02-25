@@ -16,7 +16,7 @@
   },
   "packageManager": "pnpm@10.4.1",
   "resolutions": {
-    "@swc/core": "1.9.3"
+    "@swc/core": "^1.10.18"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
