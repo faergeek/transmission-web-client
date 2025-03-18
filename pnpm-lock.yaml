@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@faergeek/eslint-config':
         specifier: ^7.0.0
-        version: 7.0.21(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))
+        version: 7.0.22(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))
       '@faergeek/monads':
         specifier: ^1.1.0
         version: 1.1.0
@@ -506,8 +506,8 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
-  '@eslint-community/eslint-utils@4.5.0':
-    resolution: {integrity: sha512-RoV8Xs9eNwiDvhv7M+xcL4PWyRyIXRY/FLp3buU4h1EYfdF7unWUy3dOjPqb3C7rMUewIcqwW850PgS8h1o1yg==}
+  '@eslint-community/eslint-utils@4.5.1':
+    resolution: {integrity: sha512-soEIOALTfTK6EjmKMMoLugwaP0rzkad90iIWd1hMO9ARkSAyjfMfkRRhLvD5qH7vvM0Cg72pieUfR6yh6XxC4w==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -544,8 +544,8 @@ packages:
     resolution: {integrity: sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@faergeek/eslint-config@7.0.21':
-    resolution: {integrity: sha512-UzyZYztqBhmWAHitpIJMY9yp8ni/PU7piF4JpnFEVVDmOCFoJNprr9UlQmJevu758esEZ8sELgvhlV+80S3lBA==}
+  '@faergeek/eslint-config@7.0.22':
+    resolution: {integrity: sha512-3jLBTn0ajdjIohDGbBjpgnPr/i+em4vhGy3pX5HNKcT1X8yykvOjIJVi/oqpRZ1a+NsKVC6PMB2rAuupfGo6vw==}
     peerDependencies:
       eslint: ^9.0.0
 
@@ -1102,8 +1102,8 @@ packages:
     peerDependencies:
       vite: ^4 || ^5 || ^6
 
-  '@vitest/eslint-plugin@1.1.37':
-    resolution: {integrity: sha512-cnlBV8zr0oaBu1Vk6ruqWzpPzFCtwY0yuwUQpNIeFOUl3UhXVwNUoOYfWkZzeToGuNBaXvIsr6/RgHrXiHXqXA==}
+  '@vitest/eslint-plugin@1.1.38':
+    resolution: {integrity: sha512-KcOTZyVz8RiM5HyriiDVrP1CyBGuhRxle+lBsmSs6NTJEO/8dKVAq+f5vQzHj1/Kc7bYXSDO6yBe62Zx0t5iaw==}
     peerDependencies:
       '@typescript-eslint/utils': ^8.24.0
       eslint: '>= 8.57.0'
@@ -2154,8 +2154,8 @@ packages:
     resolution: {integrity: sha512-nK28WOo+QIjBkDduTINE4JkF/UJJKyf2EJxvJKfblDpyg0Q+pkOHNTL0Qwy6NP6FhE/EnzV73BxxqcJaXY9anw==}
     engines: {node: '>= 0.4'}
 
-  object.entries@1.1.8:
-    resolution: {integrity: sha512-cmopxi8VwRIAw/fkijJohSfpef5PdN0pMQJN6VC/ZKvn0LIknWD8KtgY6KlQdEc4tIjcQ3HxSMmnvtzIscdaYQ==}
+  object.entries@1.1.9:
+    resolution: {integrity: sha512-8u/hfXFRBD1O0hPUjioLhoWFHRmt6tKA4/vZPyckBr18l1KE9uHrFaFaUi8MDRTpi4uak2goyPTSNJLXX2k2Hw==}
     engines: {node: '>= 0.4'}
 
   object.fromentries@2.0.8:
@@ -3309,7 +3309,7 @@ snapshots:
       eslint: 9.22.0(jiti@2.4.2)
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/eslint-utils@4.5.0(eslint@9.22.0(jiti@2.4.2))':
+  '@eslint-community/eslint-utils@4.5.1(eslint@9.22.0(jiti@2.4.2))':
     dependencies:
       eslint: 9.22.0(jiti@2.4.2)
       eslint-visitor-keys: 3.4.3
@@ -3353,9 +3353,9 @@ snapshots:
       '@eslint/core': 0.12.0
       levn: 0.4.1
 
-  '@faergeek/eslint-config@7.0.21(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))':
+  '@faergeek/eslint-config@7.0.22(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))':
     dependencies:
-      '@vitest/eslint-plugin': 1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))
+      '@vitest/eslint-plugin': 1.1.38(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))
       eslint: 9.22.0(jiti@2.4.2)
       eslint-plugin-react: 7.37.4(eslint@9.22.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.22.0(jiti@2.4.2))
@@ -3911,7 +3911,7 @@ snapshots:
 
   '@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.5.0(eslint@9.22.0(jiti@2.4.2))
+      '@eslint-community/eslint-utils': 4.5.1(eslint@9.22.0(jiti@2.4.2))
       '@typescript-eslint/scope-manager': 8.26.1
       '@typescript-eslint/types': 8.26.1
       '@typescript-eslint/typescript-estree': 8.26.1(typescript@5.8.2)
@@ -3937,7 +3937,7 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitest/eslint-plugin@1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))':
+  '@vitest/eslint-plugin@1.1.38(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/node@22.13.10)(jiti@2.4.2)(msw@2.7.3(@types/node@22.13.10)(typescript@5.8.2))(sugarss@4.0.1(postcss@8.5.3)))':
     dependencies:
       '@typescript-eslint/utils': 8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
       eslint: 9.22.0(jiti@2.4.2)
@@ -4515,7 +4515,7 @@ snapshots:
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
       minimatch: 3.1.2
-      object.entries: 1.1.8
+      object.entries: 1.1.9
       object.fromentries: 2.0.8
       object.values: 1.2.1
       prop-types: 15.8.1
@@ -5135,9 +5135,10 @@ snapshots:
       has-symbols: 1.1.0
       object-keys: 1.1.1
 
-  object.entries@1.1.8:
+  object.entries@1.1.9:
     dependencies:
       call-bind: 1.0.8
+      call-bound: 1.0.4
       define-properties: 1.2.1
       es-object-atoms: 1.1.1
 
