@@ -52,7 +52,7 @@ importers:
         version: 3.31.0(react@18.3.1)
       '@tanstack/react-query':
         specifier: ^5.45.1
-        version: 5.66.5(react@18.3.1)
+        version: 5.71.10(react@18.3.1)
       '@types/node':
         specifier: ^22.0.0
         version: 22.14.0
@@ -966,11 +966,11 @@ packages:
   '@tabler/icons@3.31.0':
     resolution: {integrity: sha512-dblAdeKY3+GA1U+Q9eziZ0ooVlZMHsE8dqP0RkwvRtEsAULoKOYaCUOcJ4oW1DjWegdxk++UAt2SlQVnmeHv+g==}
 
-  '@tanstack/query-core@5.66.4':
-    resolution: {integrity: sha512-skM/gzNX4shPkqmdTCSoHtJAPMTtmIJNS0hE+xwTTUVYwezArCT34NMermABmBVUg5Ls5aiUXEDXfqwR1oVkcA==}
+  '@tanstack/query-core@5.71.10':
+    resolution: {integrity: sha512-/fKEY8fO1nbszfrBatzmhJa1nEwIKn0c6Tv2A1ocSA5OiD2GukOIV8nnBbvJRgZb/VIoBy9/N4PVbABI8YQLow==}
 
-  '@tanstack/react-query@5.66.5':
-    resolution: {integrity: sha512-D9aABj3/aFeNmifsdllh5O3hPyA8gUnZ1jAV8MjODQ7blirfAyGed9NjAnm8rgEdr1wChyjTT738ij3vY0EREQ==}
+  '@tanstack/react-query@5.71.10':
+    resolution: {integrity: sha512-mQYM/ObpL8YMDz8vCoUuHkbe8Yu7NnVRH8aBaBa/3zlufjp1f1VuWjeO3TcumNHfuVMDwEAGinsgwrB7OKADiQ==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -3770,11 +3770,11 @@ snapshots:
 
   '@tabler/icons@3.31.0': {}
 
-  '@tanstack/query-core@5.66.4': {}
+  '@tanstack/query-core@5.71.10': {}
 
-  '@tanstack/react-query@5.66.5(react@18.3.1)':
+  '@tanstack/react-query@5.71.10(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.66.4
+      '@tanstack/query-core': 5.71.10
       react: 18.3.1
 
   '@types/cookie@0.6.0': {}
