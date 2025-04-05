@@ -100,7 +100,7 @@ importers:
         version: 9.2.0(@types/react@18.3.20)(react@18.3.1)(redux@5.0.1)
       react-router:
         specifier: ^7.0.1
-        version: 7.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 7.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       rimraf:
         specifier: ^6.0.0
         version: 6.0.1
@@ -2405,8 +2405,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-router@7.4.1:
-    resolution: {integrity: sha512-Vmizn9ZNzxfh3cumddqv3kLOKvc7AskUT0dC1prTabhiEi0U4A33LmkDOJ79tXaeSqCqMBXBU/ySX88W85+EUg==}
+  react-router@7.5.0:
+    resolution: {integrity: sha512-estOHrRlDMKdlQa6Mj32gIks4J+AxNsYoE0DbTTxiMy2mPzZuWSDU+N85/r1IlNR7kGfznF3VCUlvc5IUO+B9g==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -5388,7 +5388,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.20
 
-  react-router@7.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-router@7.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
