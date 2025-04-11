@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@faergeek/eslint-config':
         specifier: ^7.0.0
-        version: 7.0.29(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.1(@types/node@22.14.0)(jiti@2.4.2)(msw@2.7.3(@types/node@22.14.0)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))
+        version: 7.0.30(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.1(@types/node@22.14.0)(jiti@2.4.2)(msw@2.7.3(@types/node@22.14.0)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))
       '@faergeek/monads':
         specifier: ^1.1.0
         version: 1.1.0
@@ -538,8 +538,8 @@ packages:
     resolution: {integrity: sha512-ZAoA40rNMPwSm+AeHpCq8STiNAwzWLJuP8Xv4CHIc9wv/PSuExjMrmjfYNj682vW0OOiZ1HKxzvjQr9XZIisQA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@faergeek/eslint-config@7.0.29':
-    resolution: {integrity: sha512-1eo8Dl6HDEK3FkFMAB9vBKrMGAPK+SdJspEr2uoxW6OJ7xDQ0m8mGhU3YyPxWgcludxxqPrbKJQg8ooarBbkag==}
+  '@faergeek/eslint-config@7.0.30':
+    resolution: {integrity: sha512-I0fUowoq20GRJU3jMkQo5LXrC6SmyjXZMELxmiPEr1R9cLvCTLWLOFTkkqVSAciZOvZYlDWqJXT8FdeOPVXrlw==}
     peerDependencies:
       eslint: ^9.0.0
 
@@ -3316,7 +3316,7 @@ snapshots:
       '@eslint/core': 0.13.0
       levn: 0.4.1
 
-  '@faergeek/eslint-config@7.0.29(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.1(@types/node@22.14.0)(jiti@2.4.2)(msw@2.7.3(@types/node@22.14.0)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))':
+  '@faergeek/eslint-config@7.0.30(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.1(@types/node@22.14.0)(jiti@2.4.2)(msw@2.7.3(@types/node@22.14.0)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))':
     dependencies:
       '@vitest/eslint-plugin': 1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.1(@types/node@22.14.0)(jiti@2.4.2)(msw@2.7.3(@types/node@22.14.0)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))
       eslint: 9.24.0(jiti@2.4.2)
