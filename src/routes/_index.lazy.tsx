@@ -70,7 +70,7 @@ export function Component() {
     refetchInterval: 3000,
   });
 
-  return torrentGetResponse.data.torrents.map(torrent => {
+  return torrentGetResponse.data?.torrents.map(torrent => {
     const formattedEta =
       torrent.status === TorrentStatus.Downloading
         ? formatEta(torrent.eta)
