@@ -1,5 +1,5 @@
 import type { Result } from '@faergeek/monads';
-import type { DefaultBodyType, StrictResponse } from 'msw';
+import type { DefaultBodyType } from 'msw';
 import { http, HttpResponse } from 'msw';
 import { setupServer } from 'msw/node';
 import {
@@ -37,8 +37,8 @@ describe('makeTransmissionRpcRequest', () => {
         headers: Record<string, string>;
         body: unknown;
       }) =>
-        | StrictResponse<DefaultBodyType>
-        | Promise<StrictResponse<DefaultBodyType>>
+        | HttpResponse<DefaultBodyType>
+        | Promise<HttpResponse<DefaultBodyType>>
     >(() => HttpResponse.text('Unexpected request', { status: 400 }));
 
     server.use(
