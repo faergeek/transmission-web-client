@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@faergeek/eslint-config':
         specifier: ^7.0.0
-        version: 7.0.39(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/node@22.15.21)(jiti@2.4.2)(msw@2.8.4(@types/node@22.15.21)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))
+        version: 7.0.40(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/node@22.15.21)(jiti@2.4.2)(msw@2.8.4(@types/node@22.15.21)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))
       '@faergeek/monads':
         specifier: ^1.1.0
         version: 1.1.0
@@ -396,8 +396,8 @@ packages:
     resolution: {integrity: sha512-0J+zgWxHN+xXONWIyPWKFMgVuJoZuGiIFu8yxk7RJjxkzpGmyja5wRFqZIVtjDVOQpV+Rw0iOAjYPE2eQyjr0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@faergeek/eslint-config@7.0.39':
-    resolution: {integrity: sha512-i2DhU+xZqenkNIZiHw8W5I0HG2H4nz1afrPeejSR7Y7GmRFMa7k3bEpKeoJq8nMXpNfPfcqixwkvR9bvp/Vv6w==}
+  '@faergeek/eslint-config@7.0.40':
+    resolution: {integrity: sha512-LrbYzWhubVTu+cd/k0HH/IiTDMblVMpeowXVx0Jf+bTmylE9Pt8Xb1ZnsWNXK2Hx97J6JyKeeT6BnK9AnykrSg==}
     peerDependencies:
       eslint: ^9.0.0
 
@@ -3119,7 +3119,7 @@ snapshots:
       '@eslint/core': 0.14.0
       levn: 0.4.1
 
-  '@faergeek/eslint-config@7.0.39(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/node@22.15.21)(jiti@2.4.2)(msw@2.8.4(@types/node@22.15.21)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))':
+  '@faergeek/eslint-config@7.0.40(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/node@22.15.21)(jiti@2.4.2)(msw@2.8.4(@types/node@22.15.21)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))':
     dependencies:
       '@vitest/eslint-plugin': 1.2.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/node@22.15.21)(jiti@2.4.2)(msw@2.8.4(@types/node@22.15.21)(typescript@5.8.3))(sugarss@4.0.1(postcss@8.5.3)))
       eslint: 9.27.0(jiti@2.4.2)
