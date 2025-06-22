@@ -51,8 +51,8 @@ importers:
         specifier: ^3.6.0
         version: 3.34.0(react@18.3.1)
       '@tanstack/react-query':
-        specifier: 5.80.10
-        version: 5.80.10(react@18.3.1)
+        specifier: 5.81.2
+        version: 5.81.2(react@18.3.1)
       '@types/node':
         specifier: ^22.0.0
         version: 22.15.32
@@ -845,11 +845,11 @@ packages:
   '@tabler/icons@3.34.0':
     resolution: {integrity: sha512-jtVqv0JC1WU2TTEBN32D9+R6mc1iEBuPwLnBsWaR02SIEciu9aq5806AWkCHuObhQ4ERhhXErLEK7Fs+tEZxiA==}
 
-  '@tanstack/query-core@5.80.10':
-    resolution: {integrity: sha512-mUNQOtzxkjL6jLbyChZoSBP6A5gQDVRUiPvW+/zw/9ftOAz+H754zCj3D8PwnzPKyHzGkQ9JbH48ukhym9LK1Q==}
+  '@tanstack/query-core@5.81.2':
+    resolution: {integrity: sha512-QLYkPdrudoMATDFa3MiLEwRhNnAlzHWDf0LKaXUqJd0/+QxN8uTPi7bahRlxoAyH0UbLMBdeDbYzWALj7THOtw==}
 
-  '@tanstack/react-query@5.80.10':
-    resolution: {integrity: sha512-6zM098J8sLy9oU60XAdzUlAH4wVzoMVsWUWiiE/Iz4fd67PplxeyL4sw/MPcVJJVhbwGGXCsHn9GrQt2mlAzig==}
+  '@tanstack/react-query@5.81.2':
+    resolution: {integrity: sha512-pe8kFlTrL2zFLlcAj2kZk9UaYYHDk9/1hg9EBaoO3cxDhOZf1FRGJeziSXKrVZyxIfs7b3aoOj/bw7Lie0mDUg==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -3612,11 +3612,11 @@ snapshots:
 
   '@tabler/icons@3.34.0': {}
 
-  '@tanstack/query-core@5.80.10': {}
+  '@tanstack/query-core@5.81.2': {}
 
-  '@tanstack/react-query@5.80.10(react@18.3.1)':
+  '@tanstack/react-query@5.81.2(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.80.10
+      '@tanstack/query-core': 5.81.2
       react: 18.3.1
 
   '@types/chai@5.2.2':
