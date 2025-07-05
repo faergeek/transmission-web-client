@@ -1,29 +1,34 @@
 import { base, node, react, typescript, vitest } from '@faergeek/eslint-config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import lingui from 'eslint-plugin-lingui';
 import globals from 'globals';
 
-export default [
-  { ignores: ['dist/'] },
-  ...base,
-  ...node.map(config => ({
-    ...config,
+export default defineConfig(
+  globalIgnores(['dist/']),
+  base,
+  typescript,
+  {
     files: ['*.js'],
-  })),
-  ...node.map(config => ({
-    ...config,
+    extends: [node],
+  },
+  {
     files: ['*.cjs'],
+    extends: [node],
     languageOptions: {
       globals: globals.node,
     },
-  })),
-  ...react.map(config => ({
-    ...config,
+  },
+  {
     files: ['src/**/*'],
+    extends: [react],
     settings: {
-      ...config.settings,
       linkComponents: ['Anchor', { name: 'Link', linkAttribute: 'to' }],
     },
-  })),
+  },
+  {
+    files: ['**/*.spec.*'],
+    extends: [vitest],
+  },
   {
     files: ['src/**/*'],
     ignores: ['*.spec.*'],
@@ -59,9 +64,4 @@ export default [
       ],
     },
   },
-  ...vitest.map(config => ({
-    ...config,
-    files: ['**/*.spec.*'],
-  })),
-  ...typescript,
-];
+);
