@@ -1,7 +1,7 @@
 import { useLingui } from '@lingui/react';
 import { Group, Paper, Progress, Stack, Text } from '@mantine/core';
-import { IconDownload, IconUpload } from '@tabler/icons-react';
 import { useQuery } from '@tanstack/react-query';
+import { DownloadIcon, UploadIcon } from 'lucide-react';
 
 import type { AppLoaderArgs } from '../router/types';
 import { useAppLoaderData } from '../router/utils';
@@ -87,13 +87,13 @@ export function Component() {
 
           <Group justify="space-between">
             <Group gap="xs">
-              <IconDownload size={12} />
+              <DownloadIcon size={12} />
 
               <Text c="dimmed" fz="xs">
                 {formatBytesPerSecond(i18n, torrent.rateDownload)}
               </Text>
 
-              <IconUpload size={12} />
+              <UploadIcon size={12} />
 
               <Text c="dimmed" fz="xs">
                 {formatBytesPerSecond(i18n, torrent.rateUpload)}

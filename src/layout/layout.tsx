@@ -11,11 +11,11 @@ import {
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import {
-  IconCheck,
-  IconFolderPlus,
-  IconServerCog,
-  IconSettings,
-} from '@tabler/icons-react';
+  CheckIcon,
+  FolderPlusIcon,
+  ServerCogIcon,
+  SettingsIcon,
+} from 'lucide-react';
 import { useFetcher } from 'react-router';
 
 import { localesMeta, supportedLocales } from '../i18n';
@@ -43,7 +43,7 @@ export function Layout({ children }: Props) {
               size="xl"
               variant="default"
             >
-              <IconFolderPlus />
+              <FolderPlusIcon />
             </ActionIcon>
 
             <ActionIcon
@@ -52,7 +52,7 @@ export function Layout({ children }: Props) {
               variant="default"
               onClick={serverSettingsModal.open}
             >
-              <IconServerCog />
+              <ServerCogIcon />
             </ActionIcon>
 
             <ActionIcon
@@ -60,7 +60,7 @@ export function Layout({ children }: Props) {
               size="xl"
               variant="default"
             >
-              <IconSettings />
+              <SettingsIcon />
             </ActionIcon>
           </ActionIcon.Group>
 
@@ -87,7 +87,7 @@ export function Layout({ children }: Props) {
                   {option.label}
 
                   {checked && (
-                    <IconCheck style={{ marginInlineStart: 'auto' }} />
+                    <CheckIcon style={{ marginInlineStart: 'auto' }} />
                   )}
                 </Group>
               )}

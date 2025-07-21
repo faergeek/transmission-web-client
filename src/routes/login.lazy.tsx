@@ -9,7 +9,7 @@ import {
   Stack,
   TextInput,
 } from '@mantine/core';
-import { IconLockOpen } from '@tabler/icons-react';
+import { LockOpenIcon } from 'lucide-react';
 import { Form, redirect, useNavigation } from 'react-router';
 import * as S from 'superstruct';
 
@@ -96,7 +96,7 @@ export function Component() {
           <Group justify="end">
             <Button
               disabled={isSubmitting}
-              leftSection={<IconLockOpen />}
+              leftSection={<LockOpenIcon />}
               loading={isSubmitting}
               type="submit"
             >
