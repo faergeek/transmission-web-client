@@ -1,5 +1,5 @@
 import { Alert, Anchor, Box, Loader, Stack } from '@mantine/core';
-import { IconAlertTriangleFilled } from '@tabler/icons-react';
+import { TriangleAlertIcon } from 'lucide-react';
 import { useEffect } from 'react';
 import { useRouteError } from 'react-router';
 
@@ -24,7 +24,7 @@ export function ErrorBoundary() {
       <Box p="md">
         <Alert
           color="red"
-          icon={<IconAlertTriangleFilled />}
+          icon={<TriangleAlertIcon />}
           radius="xs"
           title="Something went wrong"
           variant="outline"

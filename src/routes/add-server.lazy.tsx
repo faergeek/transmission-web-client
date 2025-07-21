@@ -15,16 +15,17 @@ import {
   Timeline,
 } from '@mantine/core';
 import {
-  IconArrowLeft,
-  IconCheck,
-  IconLock,
-  IconLockOpen,
-  IconLockX,
-  IconPlug,
-  IconPlugConnected,
-  IconPlugConnectedX,
-  IconPlus,
-} from '@tabler/icons-react';
+  ArrowLeftIcon,
+  CheckIcon,
+  CloudAlertIcon,
+  CloudCheckIcon,
+  CloudCogIcon,
+  LockIcon,
+  LockKeyholeIcon,
+  LockKeyholeOpenIcon,
+  PlugIcon,
+  PlusIcon,
+} from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Form, redirect, useNavigation } from 'react-router';
 import * as S from 'superstruct';
@@ -138,11 +139,11 @@ export function Component() {
         <Timeline.Item
           bullet={
             connectionStatus === 'failed' ? (
-              <IconPlugConnectedX size={16} />
+              <CloudAlertIcon size={16} />
             ) : connectionStatus === 'success' ? (
-              <IconPlugConnected size={16} />
+              <CloudCheckIcon size={16} />
             ) : (
-              <IconPlug size={16} />
+              <CloudCogIcon size={16} />
             )
           }
           color={connectionStatus === 'failed' ? 'red' : undefined}
@@ -223,7 +224,7 @@ export function Component() {
                   <Group justify="end">
                     <Button
                       disabled={isSubmitting}
-                      leftSection={<IconPlugConnected />}
+                      leftSection={<PlugIcon />}
                       loading={isSubmitting}
                       type="submit"
                     >
@@ -239,11 +240,11 @@ export function Component() {
         <Timeline.Item
           bullet={
             loginStatus === 'credentials-required' ? (
-              <IconLockX size={16} />
+              <LockKeyholeIcon size={16} />
             ) : loginStatus === 'success' || loginStatus === 'unnecessary' ? (
-              <IconLockOpen size={16} />
+              <LockKeyholeOpenIcon size={16} />
             ) : (
-              <IconLock size={16} />
+              <LockIcon size={16} />
             )
           }
           lineVariant={
@@ -350,7 +351,7 @@ export function Component() {
                     <Group justify="end">
                       <Button
                         disabled={isSubmitting}
-                        leftSection={<IconArrowLeft />}
+                        leftSection={<ArrowLeftIcon />}
                         variant="subtle"
                         onClick={() => {
                           setActiveItemIndex(prev => prev - 1);
@@ -361,7 +362,7 @@ export function Component() {
 
                       <Button
                         disabled={isSubmitting}
-                        leftSection={<IconLockOpen />}
+                        leftSection={<LockKeyholeOpenIcon />}
                         loading={isSubmitting}
                         type="submit"
                       >
@@ -375,7 +376,7 @@ export function Component() {
           </Stack>
         </Timeline.Item>
 
-        <Timeline.Item bullet={<IconCheck size={12} />} title={t`Ready`}>
+        <Timeline.Item bullet={<CheckIcon size={12} />} title={t`Ready`}>
           <Stack>
             <Text c="dimmed" size="sm">
               <Trans>Name your server and you&apos;re good to go</Trans>
@@ -443,7 +444,7 @@ export function Component() {
                   <Group justify="end">
                     <Button
                       disabled={isSubmitting}
-                      leftSection={<IconArrowLeft />}
+                      leftSection={<ArrowLeftIcon />}
                       variant="subtle"
                       onClick={() => {
                         setActiveItemIndex(prev => prev - 1);
@@ -454,7 +455,7 @@ export function Component() {
 
                     <Button
                       disabled={isSubmitting}
-                      leftSection={<IconPlus />}
+                      leftSection={<PlusIcon />}
                       loading={isSubmitting}
                       type="submit"
                     >
