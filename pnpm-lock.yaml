@@ -16,7 +16,7 @@ importers:
         version: 8.0.1(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)(vitest@3.2.4(@types/node@22.18.1)(jiti@2.5.1)(msw@2.11.1(@types/node@22.18.1)(typescript@5.9.2))(sugarss@5.0.1(postcss@8.5.6)))
       '@faergeek/monads':
         specifier: ^1.1.0
-        version: 1.1.0
+        version: 1.1.1
       '@lingui/cli':
         specifier: ^5.0.0
         version: 5.4.1(typescript@5.9.2)
@@ -404,8 +404,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0
 
-  '@faergeek/monads@1.1.0':
-    resolution: {integrity: sha512-UxhKnBUYu9L3YBKOdybzEU2m8Xuhs/7z3ppJAKBVxLi+vJ7iaLAETD/qBnYrczFx7FMcyUVL9I2Pi36RDgz8Dg==}
+  '@faergeek/monads@1.1.1':
+    resolution: {integrity: sha512-9R5AQ9ZFUCM21SG6JMq+XCAfKls8DP7HdcFXjmaEan3Pz4W7IWAd0FlxAMBVVfpbQl+6nnaFUniA9AUUnAybFg==}
 
   '@floating-ui/core@1.7.3':
     resolution: {integrity: sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==}
@@ -3016,7 +3016,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@faergeek/monads@1.1.0': {}
+  '@faergeek/monads@1.1.1': {}
 
   '@floating-ui/core@1.7.3':
     dependencies:
