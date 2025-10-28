@@ -110,6 +110,7 @@ export function Component() {
     const { error } = actionData;
 
     if (!error) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setActiveItemIndex(2);
     } else if (error.kind === 'unauthorized') {
       setActiveItemIndex(1);
