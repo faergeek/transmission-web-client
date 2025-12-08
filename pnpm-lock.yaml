@@ -34,7 +34,7 @@ importers:
         version: 5.6.1(@lingui/core@5.6.1(@lingui/babel-plugin-lingui-macro@5.6.1(typescript@5.9.3)))
       '@lingui/vite-plugin':
         specifier: ^5.0.0
-        version: 5.6.1(typescript@5.9.3)(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
+        version: 5.6.1(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
       '@mantine/core':
         specifier: ^8.0.0
         version: 8.3.9(@mantine/hooks@8.3.9(react@19.2.1))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -61,7 +61,7 @@ importers:
         version: 19.2.3(@types/react@19.2.7)
       '@vitejs/plugin-react-swc':
         specifier: ^4.0.0
-        version: 4.2.0(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
+        version: 4.2.0(vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
       eslint:
         specifier: ^9.19.0
         version: 9.39.1(jiti@2.6.1)
@@ -121,7 +121,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^7.0.0
-        version: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+        version: 7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
       vitest:
         specifier: ^4.0.0
         version: 4.0.15(@types/node@24.10.1)(jiti@2.6.1)(msw@2.12.4(@types/node@24.10.1)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6))
@@ -2628,8 +2628,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@7.2.6:
-    resolution: {integrity: sha512-tI2l/nFHC5rLh7+5+o7QjKjSR04ivXDF4jcgV0f/bTQ+OJiITy5S6gaynVsEM+7RqzufMnVbIon6Sr5x1SDYaQ==}
+  vite@7.2.7:
+    resolution: {integrity: sha512-ITcnkFeR3+fI8P1wMgItjGrR10170d8auB4EpMLPqmx6uxElH3a/hHGQabSHKdqd4FXWO1nFIp9rRn7JQ34ACQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3231,11 +3231,11 @@ snapshots:
     dependencies:
       '@lingui/core': 5.6.1(@lingui/babel-plugin-lingui-macro@5.6.1(typescript@5.9.3))
 
-  '@lingui/vite-plugin@5.6.1(typescript@5.9.3)(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
+  '@lingui/vite-plugin@5.6.1(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@lingui/cli': 5.6.1(typescript@5.9.3)
       '@lingui/conf': 5.6.1(typescript@5.9.3)
-      vite: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -3578,11 +3578,11 @@ snapshots:
       '@typescript-eslint/types': 8.46.2
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react-swc@4.2.0(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
+  '@vitejs/plugin-react-swc@4.2.0(vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.43
       '@swc/core': 1.13.5
-      vite: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -3606,14 +3606,14 @@ snapshots:
       chai: 6.2.1
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.15(msw@2.12.4(@types/node@24.10.1)(typescript@5.9.3))(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
+  '@vitest/mocker@4.0.15(msw@2.12.4(@types/node@24.10.1)(typescript@5.9.3))(vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@vitest/spy': 4.0.15
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
       msw: 2.12.4(@types/node@24.10.1)(typescript@5.9.3)
-      vite: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
 
   '@vitest/pretty-format@4.0.15':
     dependencies:
@@ -5439,7 +5439,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)):
+  vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -5456,7 +5456,7 @@ snapshots:
   vitest@4.0.15(@types/node@24.10.1)(jiti@2.6.1)(msw@2.12.4(@types/node@24.10.1)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)):
     dependencies:
       '@vitest/expect': 4.0.15
-      '@vitest/mocker': 4.0.15(msw@2.12.4(@types/node@24.10.1)(typescript@5.9.3))(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
+      '@vitest/mocker': 4.0.15(msw@2.12.4(@types/node@24.10.1)(typescript@5.9.3))(vite@7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
       '@vitest/pretty-format': 4.0.15
       '@vitest/runner': 4.0.15
       '@vitest/snapshot': 4.0.15
@@ -5473,7 +5473,7 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.2.7(@types/node@24.10.1)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 24.10.1
