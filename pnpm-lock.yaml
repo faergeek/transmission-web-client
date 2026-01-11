@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@faergeek/eslint-config':
         specifier: ^8.0.0
-        version: 8.1.7(@eslint/js@9.39.2)(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))
+        version: 8.1.7(@eslint/js@9.39.2)(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))
       '@faergeek/monads':
         specifier: ^1.1.0
         version: 1.1.1
@@ -34,7 +34,7 @@ importers:
         version: 5.10.1(@lingui/core@5.7.0(@lingui/babel-plugin-lingui-macro@5.7.0(typescript@5.9.3)))
       '@lingui/vite-plugin':
         specifier: ^5.0.0
-        version: 5.7.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
+        version: 5.7.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
       '@mantine/core':
         specifier: ^8.0.0
         version: 8.3.12(@mantine/hooks@8.3.12(react@19.2.3))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -52,7 +52,7 @@ importers:
         version: 5.90.16(react@19.2.3)
       '@types/node':
         specifier: ^24.0.0
-        version: 24.10.6
+        version: 24.10.7
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.8
@@ -61,7 +61,7 @@ importers:
         version: 19.2.3(@types/react@19.2.8)
       '@vitejs/plugin-react-swc':
         specifier: ^4.0.0
-        version: 4.2.2(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
+        version: 4.2.2(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
       eslint:
         specifier: ^9.19.0
         version: 9.39.2(jiti@2.6.1)
@@ -76,7 +76,7 @@ importers:
         version: 0.562.0(react@19.2.3)
       msw:
         specifier: ^2.3.1
-        version: 2.12.7(@types/node@24.10.6)(typescript@5.9.3)
+        version: 2.12.7(@types/node@24.10.7)(typescript@5.9.3)
       postcss:
         specifier: ^8.4.38
         version: 8.5.6
@@ -121,10 +121,10 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^7.0.0
-        version: 7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+        version: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
       vitest:
         specifier: ^4.0.0
-        version: 4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6))
+        version: 4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6))
 
 packages:
 
@@ -1025,8 +1025,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@24.10.6':
-    resolution: {integrity: sha512-B8h60xgJMR/xmgyX9fncRzEW9gCxoJjdenUhke2v1JGOd/V66KopmWrLPXi5oUI4VuiGK+d+HlXJjDRZMj21EQ==}
+  '@types/node@24.10.7':
+    resolution: {integrity: sha512-+054pVMzVTmRQV8BhpGv3UyfZ2Llgl8rdpDTon+cUH9+na0ncBVXj3wTUKh14+Kiz18ziM3b4ikpP5/Pc0rQEQ==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -3210,10 +3210,10 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@faergeek/eslint-config@8.1.7(@eslint/js@9.39.2)(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))':
+  '@faergeek/eslint-config@8.1.7(@eslint/js@9.39.2)(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@eslint/js': 9.39.2
-      '@vitest/eslint-plugin': 1.6.6(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))
+      '@vitest/eslint-plugin': 1.6.6(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))
       eslint: 9.39.2(jiti@2.6.1)
       eslint-plugin-react: 7.37.5(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-react-hooks: 7.0.1(eslint@9.39.2(jiti@2.6.1))
@@ -3264,31 +3264,31 @@ snapshots:
 
   '@inquirer/ansi@1.0.2': {}
 
-  '@inquirer/confirm@5.1.21(@types/node@24.10.6)':
+  '@inquirer/confirm@5.1.21(@types/node@24.10.7)':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@24.10.6)
-      '@inquirer/type': 3.0.10(@types/node@24.10.6)
+      '@inquirer/core': 10.3.2(@types/node@24.10.7)
+      '@inquirer/type': 3.0.10(@types/node@24.10.7)
     optionalDependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
 
-  '@inquirer/core@10.3.2(@types/node@24.10.6)':
+  '@inquirer/core@10.3.2(@types/node@24.10.7)':
     dependencies:
       '@inquirer/ansi': 1.0.2
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@24.10.6)
+      '@inquirer/type': 3.0.10(@types/node@24.10.7)
       cli-width: 4.1.0
       mute-stream: 2.0.0
       signal-exit: 4.1.0
       wrap-ansi: 6.2.0
       yoctocolors-cjs: 2.1.3
     optionalDependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
 
   '@inquirer/figures@1.0.15': {}
 
-  '@inquirer/type@3.0.10(@types/node@24.10.6)':
+  '@inquirer/type@3.0.10(@types/node@24.10.7)':
     optionalDependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
 
   '@isaacs/balanced-match@4.0.1': {}
 
@@ -3314,7 +3314,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
@@ -3428,11 +3428,11 @@ snapshots:
     dependencies:
       '@lingui/core': 5.7.0(@lingui/babel-plugin-lingui-macro@5.7.0(typescript@5.9.3))
 
-  '@lingui/vite-plugin@5.7.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
+  '@lingui/vite-plugin@5.7.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@lingui/cli': 5.7.0(typescript@5.9.3)
       '@lingui/conf': 5.7.0(typescript@5.9.3)
-      vite: 7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -3657,7 +3657,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@24.10.6':
+  '@types/node@24.10.7':
     dependencies:
       undici-types: 7.16.0
 
@@ -3770,22 +3770,22 @@ snapshots:
       '@typescript-eslint/types': 8.52.0
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react-swc@4.2.2(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
+  '@vitejs/plugin-react-swc@4.2.2(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.47
       '@swc/core': 1.15.8
-      vite: 7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitest/eslint-plugin@1.6.6(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))':
+  '@vitest/eslint-plugin@1.6.6(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@typescript-eslint/scope-manager': 8.52.0
       '@typescript-eslint/utils': 8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint: 9.39.2(jiti@2.6.1)
     optionalDependencies:
       typescript: 5.9.3
-      vitest: 4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6))
+      vitest: 4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6))
     transitivePeerDependencies:
       - supports-color
 
@@ -3798,14 +3798,14 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.16(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
+  '@vitest/mocker@4.0.16(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))':
     dependencies:
       '@vitest/spy': 4.0.16
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      msw: 2.12.7(@types/node@24.10.6)(typescript@5.9.3)
-      vite: 7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      msw: 2.12.7(@types/node@24.10.7)(typescript@5.9.3)
+      vite: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
 
   '@vitest/pretty-format@4.0.16':
     dependencies:
@@ -4859,9 +4859,9 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3):
+  msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3):
     dependencies:
-      '@inquirer/confirm': 5.1.21(@types/node@24.10.6)
+      '@inquirer/confirm': 5.1.21(@types/node@24.10.7)
       '@mswjs/interceptors': 0.40.0
       '@open-draft/deferred-promise': 2.2.0
       '@types/statuses': 2.0.6
@@ -5625,7 +5625,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)):
+  vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -5634,15 +5634,15 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
       fsevents: 2.3.3
       jiti: 2.6.1
       sugarss: 5.0.1(postcss@8.5.6)
 
-  vitest@4.0.16(@types/node@24.10.6)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)):
+  vitest@4.0.16(@types/node@24.10.7)(jiti@2.6.1)(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(sugarss@5.0.1(postcss@8.5.6)):
     dependencies:
       '@vitest/expect': 4.0.16
-      '@vitest/mocker': 4.0.16(msw@2.12.7(@types/node@24.10.6)(typescript@5.9.3))(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
+      '@vitest/mocker': 4.0.16(msw@2.12.7(@types/node@24.10.7)(typescript@5.9.3))(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6)))
       '@vitest/pretty-format': 4.0.16
       '@vitest/runner': 4.0.16
       '@vitest/snapshot': 4.0.16
@@ -5659,10 +5659,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.3.1(@types/node@24.10.6)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
+      vite: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(sugarss@5.0.1(postcss@8.5.6))
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
     transitivePeerDependencies:
       - jiti
       - less
