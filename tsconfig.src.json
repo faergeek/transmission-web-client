@@ -1,12 +1,11 @@
 {
-  "include": ["."],
-  "extends": [".."],
   "compilerOptions": {
     "jsx": "preserve",
     "module": "preserve",
     "moduleResolution": "bundler",
-    "outDir": "../node_modules/.cache/tsc-out/src",
-    "skipLibCheck": false,
+    "outDir": "node_modules/.cache/tsc/src/",
     "types": ["vite/client", "vitest/importMeta"]
-  }
+  },
+  "extends": ["./tsconfig.base.json"],
+  "include": ["src"]
 }
