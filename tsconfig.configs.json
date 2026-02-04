@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "node_modules/.cache/tsc/configs/",
+    "types": ["vite/client", "vitest/importMeta"]
+  },
+  "extends": ["./tsconfig.base.json"],
+  "include": ["*"]
+}

@@ -23,7 +23,7 @@ export default defineConfig(
   {
     files: ['src/**/*'],
     ignores: ['*.spec.*'],
-    plugins: { lingui },
+    plugins: { lingui: /** @type {any} */ (lingui) },
     rules: {
       'lingui/t-call-in-function': 'warn',
       'lingui/no-single-variables-to-translate': 'warn',
