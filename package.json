@@ -14,7 +14,7 @@
     "check-size-limits": "size-limit --highlight-less",
     "start": "vite preview"
   },
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.29.1",
   "resolutions": {
     "@swc/core": "^1.10.18"
   },
