@@ -4,6 +4,7 @@
     "module": "preserve",
     "moduleResolution": "bundler",
     "outDir": "node_modules/.cache/tsc/src/",
+    "rootDir": "./src",
     "types": ["vite/client", "vitest/importMeta"]
   },
   "extends": ["./tsconfig.base.json"],
