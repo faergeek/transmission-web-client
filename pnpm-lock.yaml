@@ -66,8 +66,8 @@ importers:
         specifier: ^9.19.0
         version: 9.39.4(jiti@2.6.1)
       eslint-plugin-lingui:
-        specifier: ^0.12.0
-        version: 0.12.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.2)
+        specifier: ^0.13.0
+        version: 0.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.2)
       globals:
         specifier: ^17.0.0
         version: 17.4.0
@@ -1518,8 +1518,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-plugin-lingui@0.12.0:
-    resolution: {integrity: sha512-2+9P3thudGIBI10sDWYUIrGs3HIP09gv0XF98RDzZs34GAsAsGTUoSgrttKS1knAU5dwbrFKhNKu2LMrjRECag==}
+  eslint-plugin-lingui@0.13.0:
+    resolution: {integrity: sha512-CAM2eXty3JJpNj7ucSHPes7Z52JJ5n2LlvMZKNzvUfhtN/5nwZEIbgsEcXNmcHaIXU8UdVHVJBGLNRsOm5aSiw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       eslint: ^8.37.0 || ^9.0.0
@@ -4429,7 +4429,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-plugin-lingui@0.12.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.2):
+  eslint-plugin-lingui@0.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.2):
     dependencies:
       '@typescript-eslint/utils': 8.57.2(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.2)
       eslint: 9.39.4(jiti@2.6.1)
