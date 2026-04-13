@@ -179,7 +179,7 @@ export function Component() {
               </Text>
             )}
 
-            <Collapse in={activeItemIndex === 0}>
+            <Collapse expanded={activeItemIndex === 0}>
               <Form method="POST">
                 <Stack>
                   <input defaultValue="connect" name="intent" type="hidden" />
@@ -295,7 +295,7 @@ export function Component() {
                 </Text>
               )}
 
-              <Collapse in={activeItemIndex === 1}>
+              <Collapse expanded={activeItemIndex === 1}>
                 <Form method="POST">
                   <input defaultValue="login" name="intent" type="hidden" />
 
@@ -383,7 +383,7 @@ export function Component() {
               <Trans>Name your server and you&apos;re good to go</Trans>
             </Text>
 
-            <Collapse in={activeItemIndex === 2}>
+            <Collapse expanded={activeItemIndex === 2}>
               <Form method="POST">
                 <input defaultValue="add" name="intent" type="hidden" />
 
