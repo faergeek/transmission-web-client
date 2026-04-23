@@ -32,7 +32,7 @@
     "@lingui/conf": "^5.0.0",
     "@lingui/core": "^5.0.0",
     "@lingui/react": "^5.0.0",
-    "@lingui/swc-plugin": "^5.0.0",
+    "@lingui/swc-plugin": "^6.0.0",
     "@lingui/vite-plugin": "^5.0.0",
     "@mantine/core": "^9.0.0",
     "@mantine/hooks": "^9.0.0",
