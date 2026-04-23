@@ -1,6 +1,5 @@
 import { lingui } from '@lingui/vite-plugin';
 import react from '@vitejs/plugin-react-swc';
-import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
@@ -11,11 +10,7 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
-  plugins: [
-    react({ plugins: [['@lingui/swc-plugin', {}]] }),
-    lingui(),
-    visualizer({ emitFile: true }),
-  ],
+  plugins: [react({ plugins: [['@lingui/swc-plugin', {}]] }), lingui()],
   test: {
     setupFiles: ['./src/tests/setup.ts'],
   },
