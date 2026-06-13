@@ -28,7 +28,7 @@ importers:
         version: 6.2.0(react@19.2.7)
       '@lingui/swc-plugin':
         specifier: ^6.0.0
-        version: 6.3.0(@lingui/core@6.2.0)
+        version: 6.4.0(@lingui/core@6.2.0)
       '@lingui/vite-plugin':
         specifier: ^6.0.0
         version: 6.2.0(@babel/core@7.29.7)(@lingui/babel-plugin-lingui-macro@6.2.0)(rolldown@1.0.3)(vite@8.0.16(@types/node@24.13.1)(jiti@2.7.0)(sugarss@5.0.1(postcss@8.5.15)))
@@ -549,8 +549,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  '@lingui/swc-plugin@6.3.0':
-    resolution: {integrity: sha512-SYs8xVKeO6+f9imQiHYkjrq6dT5tpdkVq/CcUgS5HgDHShxe9eOQeeBfQ0gnJeJAXz7dYb4yU+NwIrSIsvdLBQ==}
+  '@lingui/swc-plugin@6.4.0':
+    resolution: {integrity: sha512-Naz0MVa23DHFLSbmQjUWzCwzH3vSLkw8Uvqln5Bhgw2raRKT2X4O+zHTBpegeYwRCMsdPCQZXymNxpfu46/0vg==}
     peerDependencies:
       '@lingui/core': 5 || 6
       '@swc/core': '*'
@@ -3127,7 +3127,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@lingui/swc-plugin@6.3.0(@lingui/core@6.2.0)':
+  '@lingui/swc-plugin@6.4.0(@lingui/core@6.2.0)':
     dependencies:
       '@lingui/conf': 6.2.0
       '@lingui/core': 6.2.0
