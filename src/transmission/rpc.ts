@@ -208,8 +208,7 @@ interface TorrentGetRecentlyActiveRequest<
 }
 
 type TorrentGetRequest =
-  | TorrentGetByIdRequest
-  | TorrentGetRecentlyActiveRequest;
+  TorrentGetByIdRequest | TorrentGetRecentlyActiveRequest;
 
 export type TransmissionRpcRequest = SessionGetRequest | TorrentGetRequest;
 
