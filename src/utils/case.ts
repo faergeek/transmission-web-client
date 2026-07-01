@@ -24,10 +24,9 @@ export type ConvertSnakeCaseKeysToCamelCase<T> = T extends [
     ? Array<ConvertSnakeCaseKeysToCamelCase<U>>
     : T extends Record<string, unknown>
       ? {
-          [K in string &
-            keyof T as SnakeCaseToCamelCase<K>]: ConvertSnakeCaseKeysToCamelCase<
-            T[K]
-          >;
+          [
+            K in string & keyof T as SnakeCaseToCamelCase<K>
+          ]: ConvertSnakeCaseKeysToCamelCase<T[K]>;
         }
       : T;
 

@@ -37,8 +37,7 @@ describe('makeTransmissionRpcRequest', () => {
         headers: Record<string, string>;
         body: unknown;
       }) =>
-        | HttpResponse<DefaultBodyType>
-        | Promise<HttpResponse<DefaultBodyType>>
+        HttpResponse<DefaultBodyType> | Promise<HttpResponse<DefaultBodyType>>
     >(() => HttpResponse.text('Unexpected request', { status: 400 }));
 
     server.use(
